@@ -4,20 +4,26 @@ import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
+
 const FooterComponent = styled.footer`
-  position: fixed;
   height: 60px;
   bottom: 0;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
   z-index: 100;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
-  text-shadow: .1px .1px .1px $colorMain;
+  text-shadow: .1px .1px .1px #032a3f;
   width: 100vw;
+  &.sticky {
+    position: fixed;
+  }
+  &.tape {
+    background: #032a3f;
+  }
 `;
 
 const Icons = styled.div`
@@ -38,7 +44,7 @@ const Icon = styled.a`
 `;
 
 const Footer = () => (
-  <FooterComponent>
+  <FooterComponent className={window.location.pathname === '/' ? 'sticky' : 'tape'}>
     Copyright © Witamy Świat {new Date().getFullYear()} All rights reserved.
     <Icons>
       <Icon href="https://www.facebook.com/witamyswiat/">

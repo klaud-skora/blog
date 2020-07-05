@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 import styled from 'styled-components'
-import React from "react"
+import React, { useEffect, useState } from 'react';
 
 const HeaderComponent = styled.header`
   font-weight: 600;
@@ -12,47 +12,64 @@ const HeaderComponent = styled.header`
   align-items: center;
   justify-content: center;
   padding: 0 10px;
-  position: fixed;
+  position: absolute;
+  
+  &.sticky {
+    position: fixed;
+    top: 0;
+  }
 `;
 
 const Navigation = styled.nav`
   display: flex;
+`;
 
+const LinkBox = styled.div`
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  height: 30px;
+  margin-right: 30px;
+  border-radius: 5px;
+  
   .link {
     text-decoration: none;
     font-weight: 600;
-    color: #fff;
-    margin-right: 30px;
     cursor: pointer;
     font-size: 18px;
     text-shadow: 0.1px 0.5px 5px #032a3f
+    padding: 8px 15px;
+    color: #fff;
   }
 
-  .link:hover {
-    color: #032a3f;
-  }
+  &:hover { background: rgba(35, 0, 0, 0.2); .link {color: #032a3f;}  }
 `;
 
-const Header = ({ siteTitle }) => (
-  <div>
-    <HeaderComponent>
+const Header = () => {
+  const [isSticky, setSticky] = useState(false);
+
+  const handleScroll = () => {
+    let offset = window.pageYOffset;
+    let height = window.innerHeight;
+    if(offset <= height * 0.25) setSticky(false);
+    if(offset > height * 0.25 ) setSticky(true);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', () => handleScroll);
+    };
+  }, []);
+  
+  return <HeaderComponent className={isSticky ? "sticky" : null} >
       <Navigation>
-        <Link to='/' className="link">{siteTitle}</Link>
-        <Link to="/page-2/" className="link">Nasz świat</Link> <br />
-        <Link to="/page-2/" className="link">Europa</Link> <br />
-        <Link to="/page-2/" className="link">Polska</Link> <br />
-        <Link to="/using-typescript/" className="link">Posty</Link>
+        <LinkBox><Link to="/nasz-swiat/" className="link">Nasz świat</Link></LinkBox>
+        <LinkBox><Link to="/page-2/" className="link">Europa</Link></LinkBox>
+        <LinkBox><Link to="/page-2/" className="link">Polska</Link></LinkBox>
+        <LinkBox><Link to="/using-typescript/" className="link">Posty</Link></LinkBox>
       </Navigation>
-    </HeaderComponent>
-  </div>
-);
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
+    </HeaderComponent>;
+};
 
 export default Header
