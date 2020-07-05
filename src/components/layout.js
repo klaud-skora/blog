@@ -2,11 +2,16 @@ import React from 'react';
 import Header from "./header"
 import Footer from './footer'
 import "./layout.css"
+import styled from 'styled-components'
+
+const Main = styled.main`
+  min-height: calc(100vh - calc(20vh + 60px));
+`;
 
 const Layout = ({ children }) => (
   <>
     <Header />
-    <main>{children}</main>
+    <Main>{children}</Main>
     <Footer />
   </>
 );

@@ -7,8 +7,7 @@ import SEO from "../components/seo"
 import styled from 'styled-components';
 
 const Root = styled.div`
-  min-height: calc(100vh - 60px);
-  margin: 60px 0;
+  margin: 60px 0 10px;
   display: flex;
   justify-content: flex-end;
 `;

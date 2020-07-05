@@ -1,5 +1,4 @@
-import { Link } from "gatsby"
-// import PropTypes from "prop-types"
+import { Link } from "gatsby";
 import styled from 'styled-components'
 import React, { useEffect, useState } from 'react';
 
@@ -18,7 +17,7 @@ const HeaderComponent = styled.header`
   ${({ active }) => active && `
     background: #EAEAEA;
     border-bottom: 1px solid #032a3f;
-    box-shadow: 0 15px 15px #032a3f;
+    box-shadow: 0 7px 7px #032a3f;
   `}
 
   &.sticky {
@@ -40,7 +39,6 @@ const LinkBox = styled.div`
   border-radius: 5px;
   
   .link {
-    text-decoration: none;
     font-weight: 600;
     cursor: pointer;
     font-size: 18px;
@@ -73,8 +71,8 @@ const Header = () => {
       <Navigation>
         <LinkBox><Link to="/nasz-swiat/" className="link">Nasz świat</Link></LinkBox>
         <LinkBox><Link to="/europa/" className="link">Europa</Link></LinkBox>
-        <LinkBox><Link to="/page-2/" className="link">Polska</Link></LinkBox>
-        <LinkBox><Link to="/using-typescript/" className="link">Posty</Link></LinkBox>
+        <LinkBox><Link to="/" className="link">Polska</Link></LinkBox>
+        <LinkBox><Link to="/posts" className="link">Posty</Link></LinkBox>
       </Navigation>
     </HeaderComponent>;
 };

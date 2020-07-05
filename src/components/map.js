@@ -24,7 +24,7 @@ const rounded = num => {
 
 const MapComponent = styled.div`
   position: relative;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 160px);
   width: 900px;
   overflow: hidden;
 `;
@@ -35,7 +35,7 @@ const Map = ({ setTooltipContent }) => (
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
         rotate: [-16.0, -48.0, 8],
-        scale: 700
+        scale: 500
       }}
     >
       <Geographies geography={geoUrl}>
