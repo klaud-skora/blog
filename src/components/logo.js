@@ -6,6 +6,7 @@ import logo from '../images/logo.svg'
 const LogoComponent = styled.div`
   height: 20vh;
   text-align: center;
+  background-color: #EAEAEA;
 
   img { height: 100% }
 `;

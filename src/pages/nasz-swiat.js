@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import image from '../images/ws.jpeg';
 
 const OurWorldContainer = styled.div`
-  background-color: #ffd452;
+  background-color: #EAEAEA;
   // padding: 60px 30px 0;
   text-align: justify;
   color: #032a3f;
