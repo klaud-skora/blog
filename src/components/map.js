@@ -24,7 +24,7 @@ const rounded = num => {
 
 const MapComponent = styled.div`
   position: relative;
-  height: calc(100vh - 160px);
+  height: 100%;
   width: 1000px;
   overflow: hidden;
   z-index: 88;

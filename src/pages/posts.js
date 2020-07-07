@@ -1,9 +1,10 @@
-import React from "react"
-import { Link, graphql } from 'gatsby'
-import Logo from "../components/logo.js"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import styled from 'styled-components'
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import Logo from '../components/logo.js';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import styled from 'styled-components';
+import variables from '../styles/variables';
 
 const AllPosts = styled.section`
   margin: 100px auto;
@@ -18,8 +19,7 @@ const ImageContainer = styled.div`
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 3px;
-    border: 1px solid #032a3f;
+    border: 1px solid ${variables.color.mainColor};
   }
 `;
 

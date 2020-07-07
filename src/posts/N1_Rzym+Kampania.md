@@ -8,37 +8,37 @@ tags:
 - italy
 category: post
 intro: Witamy Świat ! Pierwsza podróż na blogu - Włochy
-cover: ../images/ws.jpeg
+cover: ../images/p1/n1.jpg
 full_cover: ../images/ws.jpeg
 ---
-Ciao a tutti!
+<p>Ciao a tutti!<p>
+<p>Kolejnym, długo wyczekiwanym przez nas celem podróży stały się nasze ukochane Włochy. Tym razem wybraliśmy się do Rzymu, Neapolu, Salerno, a także na Wybrzeże Amalfitańskie. <p>
 
-Kolejnym, długo wyczekiwanym przez nas celem podróży stały się nasze ukochane Włochy. Tym razem wybraliśmy się do Rzymu, Neapolu, Salerno, a także na Wybrzeże Amalfitańskie.
+<div class='flex'>
+<ul class='box'>W ujęciu ogólnym plan naszej wycieczki wyglądał następująco:
+  <li>1 dzień - Kraków >>> Rzym</li>
 
-W ujęciu ogólnym plan naszej wycieczki wyglądał następująco:
+  <li>2 dzień - Rzym</li>
 
-1 dzień - Kraków >>> Rzym
+  <li>3 dzień - Rzym >>> Salerno</li>
 
-2 dzień - Rzym
+  <li>4 dzień - Wybrzeże Amalfitańskie</li>
 
-3 dzień - Rzym >>> Salerno
+  <li>5 dzień - Salerno >>> Neapol</li>
 
-4 dzień - Wybrzeże Amalfitańskie
+  <li>6 dzień - Neapol</li>
 
-5 dzień - Salerno >>> Neapol
+  <li>7 dzień - Neapol >>> Kraków</li>
+</ul>
+<div class='image1 box'><img src="/static/posts-images/n11.jpg" alt=''/></div>
+</div>
 
-6 dzień - Neapol
-
-7 dzień - Neapol >>> Kraków
-
+<p>
 Budżet całej operacji wyniósł ostatecznie ok. 3500zł. Po Włoszech przemieszczaliśmy się przede wszystkim pociągami, a w samych miastach oczywiście pieszo. 
 
 W następnych postach poznacie dokładny przebieg poszczególnych dni, a także miejsca, w których można robić to, co kochamy najbardziej, czyli dobrze zjeść.
 
 Zapraszamy we wspólną podróż naszymi oczami! 
-
-<!-- <div class="aspect-ratio aspect-ratio--16x9 mv5">
-  <iframe src="https://www.youtube.com/embed/jtUikA_G1Vo" class="aspect-ratio--object" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-</div> -->
+</p>
 
 

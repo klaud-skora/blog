@@ -2,3 +2,28 @@
   margin: 0 40px;
   padding: 100px 0 10px;
 }
+
+.title {
+  background-color: #94af98;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.box {
+  max-width: 45%;
+  flex: 45%;
+  min-width: 400px;
+}
+
+.image1 {
+  display: inline-block;
+  height: 427px;
+}

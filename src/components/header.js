@@ -83,7 +83,7 @@ const Header = () => {
   
   return <HeaderComponent className={isSticky ? 'sticky' : null} active={ window.location.pathname === '/' ? false : true} >
       <Navigation>
-        <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to='/nasz-swiat/' className='logo' ><img src={logo} alt='logo' /></Link></LinkBox>
+        <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to='/' className='logo' ><img src={logo} alt='logo' /></Link></LinkBox>
         <LinkBox><Link to='/nasz-swiat/' className='link'>Nasz świat</Link></LinkBox>
         <LinkBox><Link to='/europa/' className='link'>Europa</Link></LinkBox>
         <LinkBox><Link to='/' className='link'>Polska</Link></LinkBox>

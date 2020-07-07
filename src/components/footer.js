@@ -30,23 +30,24 @@ const FooterComponent = styled.footer`
 
 const Icons = styled.div`
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
+  align-items: center;
   width: 100px;
-  padding: 0 4px;;
+  height: 100%;
+  padding: 0 10px;
 `;
 
 const Icon = styled.a`
   color: #fff;
   font-size: 22px;
-
+  padding: 8px;
   &:hover {
     font-size: 25px;
   }
 `;
 
 const Copyright = styled.span`
-  font-size: 10px;
+  font-size: 13px;
 `;
 
 const Footer = () => (

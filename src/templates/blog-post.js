@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
 import Logo from '../components/logo'
-import SEO from '../components/seo'
-import './blog-post.scss'
+import SEO from '../components/seo';
+import './blog-post.scss';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
@@ -19,8 +19,8 @@ export default ({ data }) => {
           cover={post.frontmatter.cover.publicURL}
         />
         <article className="post-article">
-          <h1 className="f2">{post.frontmatter.title}</h1>
-          <div className="lh-copy mt3" dangerouslySetInnerHTML={{ __html: post.html }} />
+          <h1 className="title">{post.frontmatter.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
       </Layout>
     </>
