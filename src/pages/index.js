@@ -1,13 +1,14 @@
-import React from "react"
-import styled from 'styled-components'
-import Layout from "../components/layout"
-import image from '../images/IMG_20200706_211108.jpg'
-import Logo from '../components/logo'
-import SEO from "../components/seo"
+import React from 'react';
+import styled from 'styled-components';
+import Layout from '../components/layout';
+import image from '../images/IMG_20200706_211108.jpg';
+import Logo from '../components/logo';
+import SEO from '../components/seo';
+import variables from '../styles/variables';
 
 const Image = styled.div`
   width: 100vw;
-  height: calc(100vh - 20vh);
+  height: calc(100vh - ${variables.height.logoHeight});
   
   img {
     height: 100%;
@@ -29,4 +30,4 @@ const IndexPage = () => (
   </>
 )
 
-export default IndexPage
+export default IndexPage;

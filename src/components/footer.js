@@ -1,5 +1,5 @@
-import React from "react"
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 import variables from '../styles/variables';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,13 +8,13 @@ import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const FooterComponent = styled.footer`
   
-  height: ${variables.footerHeight};
+  height: ${variables.height.footerHeight};
   bottom: 0;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  color: #fff;
+  color: ${variables.color.lightColor};
   font-size: 12px;
   font-weight: 600;
   text-shadow: .1px .1px .1px #032a3f;
@@ -24,7 +24,7 @@ const FooterComponent = styled.footer`
     position: fixed;
   }
   &.tape {
-    background: #000000
+    background: ${variables.color.footerColor};
   }
 `;
 
@@ -33,7 +33,7 @@ const Icons = styled.div`
   align-items: flex-end;
   justify-content: space-between;
   width: 100px;
-  padding: 0 14px;;
+  padding: 0 4px;;
 `;
 
 const Icon = styled.a`
@@ -63,4 +63,4 @@ const Footer = () => (
   </FooterComponent>
 );
 
-export default Footer
+export default Footer;

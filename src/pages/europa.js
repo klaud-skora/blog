@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Map from '../components/map.js';
-import ReactTooltip from "react-tooltip";
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import ReactTooltip from 'react-tooltip';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 import styled from 'styled-components';
 import image from '../images/IMG_20200706_211108.jpg';
+import variables from '../styles/variables';
 
 const EuropaComponent = styled.div`
   
@@ -19,14 +20,14 @@ const EuropaComponent = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100% - 40px);
+    height: calc(100% - ${variables.height.footerHeight});
     background: rgba(255, 255, 255, .4);
   }
 `;
 
 const Root = styled.div`
   min-height: 100vh;
-  padding-top: 60px;
+  padding-top: ${variables.height.headerHeight};
   display: flex;
   justify-content: flex-end;
 `;
@@ -36,7 +37,7 @@ const Europa = () => {
   return <>
     <EuropaComponent>
       <Layout>
-        <SEO title="Nasz Świat" />
+        <SEO title='Nasz Świat' />
         <Root>
           <Map setTooltipContent={setContent} />
           <ReactTooltip>{content}</ReactTooltip>
@@ -46,4 +47,4 @@ const Europa = () => {
   </>;
 }
 
-export default Europa
+export default Europa;

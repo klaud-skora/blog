@@ -1,11 +1,12 @@
 import React from 'react';
-import Header from "./header"
-import Footer from './footer'
-import "./layout.css"
-import styled from 'styled-components'
+import Header from './header';
+import Footer from './footer';
+import './layout.css';
+import styled from 'styled-components';
 
 const Main = styled.main`
   min-height: calc(100vh - calc(20vh + 40px));
+  // min-height: calc(100vh - 20vh);
 `;
 
 const Layout = ({ children }) => (
@@ -16,5 +17,4 @@ const Layout = ({ children }) => (
   </>
 );
 
-
-export default Layout
+export default Layout;

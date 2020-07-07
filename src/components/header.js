@@ -1,12 +1,13 @@
-import { Link } from "gatsby";
-import styled from 'styled-components'
+import { Link } from 'gatsby';
+import styled from 'styled-components';
 import React, { useEffect, useState } from 'react';
 import logo from '../images/logo.svg';
+import variables from '../styles/variables';
 
 const HeaderComponent = styled.header`
   z-index: 999;
   font-weight: 600;
-  height: 60px;
+  height: ${variables.height.headerHeight};
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -14,12 +15,12 @@ const HeaderComponent = styled.header`
   justify-content: center;
   padding: 0 10px;
   position: absolute;
-  .link {color: #fff};
+  .link {color: ${variables.color.lightColor}};
 
   ${({ active }) => active && `
-    .link { color: #13210F }
-    border-bottom: 1px solid #1f3a24;
-    box-shadow: 0 1px 1px #1f3a24;
+    .link { color: ${variables.color.mainColor} }
+    border-bottom: 1px solid ${variables.color.mainColor};
+    box-shadow: 0 1px 1px ${variables.color.mainColor};
   `}
 
   &.sticky {
@@ -46,7 +47,7 @@ const LinkBox = styled.div`
     font-weight: 600;
     cursor: pointer;
     font-size: 20px;
-    text-shadow: 0.1px 0.5px 2px #1f3a24;
+    text-shadow: 0.1px 0.5px 2px ${variables.color.mainColor};
     padding: 8px 15px;
     z-index: 999;
   }
@@ -80,15 +81,15 @@ const Header = () => {
     };
   }, []);
   
-  return <HeaderComponent className={isSticky ? "sticky" : null} active={ window.location.pathname === '/' ? false : true} >
+  return <HeaderComponent className={isSticky ? 'sticky' : null} active={ window.location.pathname === '/' ? false : true} >
       <Navigation>
-        <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to="/nasz-swiat/" className="logo" ><img src={logo} alt='logo' /></Link></LinkBox>
-        <LinkBox><Link to="/nasz-swiat/" className="link">Nasz świat</Link></LinkBox>
-        <LinkBox><Link to="/europa/" className="link">Europa</Link></LinkBox>
-        <LinkBox><Link to="/" className="link">Polska</Link></LinkBox>
-        <LinkBox><Link to="/posts" className="link">Posty</Link></LinkBox>
+        <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to='/nasz-swiat/' className='logo' ><img src={logo} alt='logo' /></Link></LinkBox>
+        <LinkBox><Link to='/nasz-swiat/' className='link'>Nasz świat</Link></LinkBox>
+        <LinkBox><Link to='/europa/' className='link'>Europa</Link></LinkBox>
+        <LinkBox><Link to='/' className='link'>Polska</Link></LinkBox>
+        <LinkBox><Link to='/posts' className='link'>Posty</Link></LinkBox>
       </Navigation>
     </HeaderComponent>;
 };
 
-export default Header
+export default Header;

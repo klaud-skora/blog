@@ -1,12 +1,13 @@
-import React from "react"
-import styled from 'styled-components'
-import { Link } from 'gatsby'
-import logo from '../images/logo.svg'
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'gatsby';
+import logo from '../images/logo.svg';
+import variables from '../styles/variables';
 
 const LogoComponent = styled.div`
   text-align: center;
-  height: 20vh;
-  padding-top: 14px;
+  height: ${variables.height.logoHeight};
+  padding-top: 24px;
   img { height: 80%; }
 `;
 
@@ -16,4 +17,4 @@ const Logo = () => (
   </LogoComponent>
 );
 
-export default Logo
+export default Logo;

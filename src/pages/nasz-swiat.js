@@ -1,20 +1,20 @@
-import React from "react"
-import Logo from "../components/logo.js"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from 'react';
+import Logo from '../components/logo.js';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 import styled from 'styled-components';
 import image from '../images/ws.jpeg';
+import variables from '../styles/variables';
 
 const OurWorldContainer = styled.div`
-  padding-top: 60px;
+  padding-top: ${variables.height.headerHeight};
   height: 200vh;
-
 `;
 
 const About = styled.div`
   width: 100%;
   padding: 40px;
-  h2, p { color: #fff; text-shadow: 1px 1px 4px #000}
+  h2, p { color: ${variables.color.lightColor}; text-shadow: 1px 1px 4px ${variables.color.footerColor}}
   text-align: justify;
   position: absolute;
   bottom: 0;
@@ -53,12 +53,9 @@ const OurWorld = () => (
             <p>K i J</p>
           </About>
         </Image>
-       
-        
       </OurWorldContainer>
-      
     </Layout>
   </>
 )
 
-export default OurWorld
+export default OurWorld;
