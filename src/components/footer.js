@@ -1,28 +1,30 @@
 import React from "react"
 import styled from 'styled-components'
+import variables from '../styles/variables';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 const FooterComponent = styled.footer`
-  height: 60px;
+  
+  height: ${variables.footerHeight};
   bottom: 0;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  z-index: 100;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
   text-shadow: .1px .1px .1px #032a3f;
   width: 100vw;
+  
   &.sticky {
     position: fixed;
   }
   &.tape {
-    background: #032a3f;
+    background: #000000
   }
 `;
 
@@ -31,7 +33,7 @@ const Icons = styled.div`
   align-items: flex-end;
   justify-content: space-between;
   width: 100px;
-  padding: 0 10px;;
+  padding: 0 14px;;
 `;
 
 const Icon = styled.a`
@@ -43,9 +45,13 @@ const Icon = styled.a`
   }
 `;
 
+const Copyright = styled.span`
+  font-size: 10px;
+`;
+
 const Footer = () => (
   <FooterComponent className={window.location.pathname === '/' ? 'sticky' : 'tape'}>
-    Copyright © Witamy Świat {new Date().getFullYear()} All rights reserved.
+    <Copyright>© Witamy Świat {new Date().getFullYear()} All rights reserved.</Copyright>
     <Icons>
       <Icon href="https://www.facebook.com/witamyswiat/">
         <FontAwesomeIcon icon={ faFacebook } />

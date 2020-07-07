@@ -20,16 +20,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-exports.onCreatePage = async ({ page, actions }) => {
-  const { createPage } = actions
-  // page.matchPath is a special key that's used for matching pages
-  // only on the client.
-  if (page.path.match(/^\/app/)) {
-    page.matchPath = "/app/*"
-    // Update the page.
-    createPage(page)
-  }
-}
+// exports.onCreatePage = async ({ page, actions }) => {
+//   const { createPage } = actions
+//   // page.matchPath is a special key that's used for matching pages
+//   // only on the client.
+//   if (page.path.match(/^\/app/)) {
+//     page.matchPath = "/app/*"
+//     // Update the page.
+//     createPage(page)
+//   }
+// }
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -57,11 +57,7 @@ exports.createPages = ({ graphql, actions }) => {
       createPage({
         path: node.fields.slug,
         component: template,
-        context: {
-          // Data passed to context is available
-          // in page queries as GraphQL variables.
-          slug: node.fields.slug
-        },
+        context: { slug: node.fields.slug },
       })
     })
   })

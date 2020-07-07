@@ -8,6 +8,18 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `limelight`,
+          'Inconsolata',
+          `source sans pro\:300,400,400i,700`,
+          `open sans`,
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

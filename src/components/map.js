@@ -27,6 +27,7 @@ const MapComponent = styled.div`
   height: calc(100vh - 160px);
   width: 900px;
   overflow: hidden;
+  z-index: 88;
 `;
 
 const Map = ({ setTooltipContent }) => (
@@ -35,7 +36,7 @@ const Map = ({ setTooltipContent }) => (
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
         rotate: [-16.0, -48.0, 8],
-        scale: 500
+        scale: 700
       }}
     >
       <Geographies geography={geoUrl}>
@@ -56,19 +57,19 @@ const Map = ({ setTooltipContent }) => (
               }}
               style={{
                 default: {
-                  fill: checkedCountries.includes(geo.properties.NAME) ? "#032a3f" : "#EAEAEA",
+                  fill: checkedCountries.includes(geo.properties.NAME) ? "#1f3a24" : " #ffffff00",
                   outline: "none",
-                  stroke: "#032a3f"
+                  stroke: "#1f3a24"
                 },
                 hover: {
-                  fill: "#aa4b6b",
+                  fill: "#1f3a24",
                   outline: "none",
-                  stroke: "#032a3f"
+                  stroke: "#1f3a24"
                 },
                 pressed: {
-                  fill: "#493240",
+                  fill: "#000000",
                   outline: "none",
-                  stroke: "#032a3f"
+                  stroke: "#1f3a24"
                 }
               }}
             />

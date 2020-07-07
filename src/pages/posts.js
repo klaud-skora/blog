@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 import styled from 'styled-components'
 
 const AllPosts = styled.section`
-  margin-top: 100px;
-  padding: 40px 50px;
+  margin: 100px auto;
+  width: 80%;
 `;
 
 const ImageContainer = styled.div`
@@ -18,27 +18,30 @@ const ImageContainer = styled.div`
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid #032a3f;
   }
 `;
 
 const Description = styled.div`
-  margin-left: 40px;
+  margin-left: 20px;
   width: 45%;
 `;
 
-const Post = styled.div`
+const Post = styled.article`
+  padding: 20px;
+  flex: 100%;
+  width: 100%;
   display: flex;
-  height: 200px;
+  height: 260px;
   align-items: center;
-  border: 1px solid blue;
 `;
 
-const DateDes = styled.span`
+const DateDes = styled.p`
+  margin: 0;
   fonst-size: .5rem;
   color: grey;
-  margin: 0 0px 0 auto;
+  text-align: right;
 `;
 
 const Posts = ({ data }) => (
@@ -48,23 +51,21 @@ const Posts = ({ data }) => (
       <SEO title="Travels" /> 
       <AllPosts>        
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <article key={node.id} >
             <Link to={node.fields.slug}>
-            <Post>
-              <ImageContainer>
-                <img
-                  alt='Blog post cover'
-                  src={node.frontmatter.cover.publicURL}
-                />
-              </ImageContainer>
-              <Description>
-                <h3 className="f3 mt0 lh-title">{node.frontmatter.title}</h3>
-                <p className="f6 f5-l lh-copy">{node.frontmatter.intro}</p>
-                <DateDes className="f6 lh-copy mv0 light-purple">{node.frontmatter.date}</DateDes>
-              </Description>
-            </Post>
-          </Link>
-          </article>
+              <Post key={node.id} >
+                <ImageContainer>
+                  <img
+                    alt='Blog post cover'
+                    src={node.frontmatter.cover.publicURL}
+                  />
+                </ImageContainer>
+                <Description>
+                  <h3>{node.frontmatter.title}</h3>
+                  <p>{node.frontmatter.intro}</p>
+                  <DateDes>{node.frontmatter.date}</DateDes>
+                </Description>
+              </Post>
+            </Link>
         ))}
       </AllPosts>
     </Layout>

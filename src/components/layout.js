@@ -5,7 +5,7 @@ import "./layout.css"
 import styled from 'styled-components'
 
 const Main = styled.main`
-  min-height: calc(100vh - calc(20vh + 60px));
+  min-height: calc(100vh - calc(20vh + 40px));
 `;
 
 const Layout = ({ children }) => (

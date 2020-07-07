@@ -4,11 +4,10 @@ import { Link } from 'gatsby'
 import logo from '../images/logo.svg'
 
 const LogoComponent = styled.div`
-  height: 20vh;
   text-align: center;
-  background-color: #EAEAEA;
-
-  img { height: 100% }
+  height: 20vh;
+  padding-top: 14px;
+  img { height: 80%; }
 `;
 
 const Logo = () => (

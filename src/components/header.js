@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import styled from 'styled-components'
 import React, { useEffect, useState } from 'react';
+import logo from '../images/logo.svg';
 
 const HeaderComponent = styled.header`
   z-index: 999;
@@ -13,11 +14,12 @@ const HeaderComponent = styled.header`
   justify-content: center;
   padding: 0 10px;
   position: absolute;
+  .link {color: #fff};
 
   ${({ active }) => active && `
-    background: #EAEAEA;
-    border-bottom: 1px solid #032a3f;
-    box-shadow: 0 7px 7px #032a3f;
+    .link { color: #13210F }
+    border-bottom: 1px solid #1f3a24;
+    box-shadow: 0 1px 1px #1f3a24;
   `}
 
   &.sticky {
@@ -28,6 +30,7 @@ const HeaderComponent = styled.header`
 
 const Navigation = styled.nav`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const LinkBox = styled.div`
@@ -39,15 +42,25 @@ const LinkBox = styled.div`
   border-radius: 5px;
   
   .link {
+    font-family: 'Inconsolata', monospace;
     font-weight: 600;
     cursor: pointer;
-    font-size: 18px;
-    text-shadow: 0.1px 0.5px 5px #032a3f;
+    font-size: 20px;
+    text-shadow: 0.1px 0.5px 2px #1f3a24;
     padding: 8px 15px;
-    color: #fff;
+    z-index: 999;
   }
 
-  &:hover { background: rgba(35, 0, 0, 0.2); .link {color: #032a3f;}  }
+  .logo {
+    opacity: 0;
+    width: 100px;
+    padding: 8px 15px;
+  }
+  ${({ europa }) => europa && `
+      .logo { opacity: 1 }
+    `}
+
+  &:hover { background: rgba(35, 0, 0, 0.2); .link {color: #1f3a24}  }
 `;
 
 const Header = () => {
@@ -69,6 +82,7 @@ const Header = () => {
   
   return <HeaderComponent className={isSticky ? "sticky" : null} active={ window.location.pathname === '/' ? false : true} >
       <Navigation>
+        <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to="/nasz-swiat/" className="logo" ><img src={logo} alt='logo' /></Link></LinkBox>
         <LinkBox><Link to="/nasz-swiat/" className="link">Nasz świat</Link></LinkBox>
         <LinkBox><Link to="/europa/" className="link">Europa</Link></LinkBox>
         <LinkBox><Link to="/" className="link">Polska</Link></LinkBox>

@@ -1,5 +1,5 @@
 ---
-title: Witamy Świat \#1 - Włochy (Rzym i Kampania)
+title: Witamy Świat .#1 - Włochy (Rzym i Kampania)
 date: 2020-02-4 8:00:00
 tags:
 - witamyświat
@@ -9,7 +9,7 @@ tags:
 category: post
 intro: Witamy Świat ! Pierwsza podróż na blogu - Włochy
 cover: ../images/ws.jpeg
-full_cover: ./gatsby-logowanie-strapi.jpg
+full_cover: ../images/ws.jpeg
 ---
 Ciao a tutti!
 
@@ -37,8 +37,8 @@ W następnych postach poznacie dokładny przebieg poszczególnych dni, a także 
 
 Zapraszamy we wspólną podróż naszymi oczami! 
 
-<div class="aspect-ratio aspect-ratio--16x9 mv5">
+<!-- <div class="aspect-ratio aspect-ratio--16x9 mv5">
   <iframe src="https://www.youtube.com/embed/jtUikA_G1Vo" class="aspect-ratio--object" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-</div>
+</div> -->
 
 
