@@ -11,6 +11,7 @@ const variables = {
     footerHeight: '40px',
   },
   radius: '3px',
+  transitionAll: 'all 0.5s ease',
 };
 
 export default variables;

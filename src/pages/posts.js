@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import variables from '../styles/variables';
 
 const AllPosts = styled.section`
-  margin: 100px auto;
+  margin: 100px auto 40px;
   width: 80%;
 `;
 

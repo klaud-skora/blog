@@ -12,7 +12,7 @@ const HeaderComponent = styled.header`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 0 10px;
   position: absolute;
   .link {color: ${variables.color.lightColor}};
@@ -53,12 +53,12 @@ const LinkBox = styled.div`
   }
 
   .logo {
-    opacity: 0;
+    display: none;
     width: 100px;
     padding: 8px 15px;
   }
   ${({ europa }) => europa && `
-      .logo { opacity: 1 }
+      .logo { display: inline-block }
     `}
 
   &:hover { background: rgba(35, 0, 0, 0.2); .link {color: #1f3a24}  }

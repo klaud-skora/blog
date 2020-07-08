@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .box {
@@ -26,4 +26,9 @@
 .image1 {
   display: inline-block;
   height: 427px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 740px) {
+  .flex { justify-content: center;}
 }
