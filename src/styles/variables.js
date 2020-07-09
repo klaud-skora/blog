@@ -8,7 +8,7 @@ const variables = {
   height: {
     logoHeight: '20vh',
     headerHeight: '60px',
-    footerHeight: '40px',
+    footerHeight: '50px',
   },
   radius: '3px',
   transitionAll: 'all 0.5s ease',

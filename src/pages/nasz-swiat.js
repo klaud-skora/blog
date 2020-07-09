@@ -1,14 +1,17 @@
 import React from 'react';
-import Logo from '../components/logo.js';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import styled from 'styled-components';
-import image from '../images/ws.jpeg';
+import image from '../images/us.jpeg';
 import variables from '../styles/variables';
 
 const OurWorldContainer = styled.div`
   padding-top: ${variables.height.headerHeight};
-  height: 200vh;
+  height: 140vh;
+
+  @media(max-width: 740px) {
+    padding-top: 0;
+  }
 `;
 
 const About = styled.div`
@@ -36,12 +39,11 @@ const About = styled.div`
 const Image = styled.div`
   height: 100%;
   position: relative;
-  background: url(${image}) no-repeat top right/cover fixed;
+  background: url(${image}) no-repeat top center/cover fixed;
 `;
 
 const OurWorld = () => (
   <>
-    <Logo />
     <Layout>
       <SEO title="Nasz Świat" />
       <OurWorldContainer>

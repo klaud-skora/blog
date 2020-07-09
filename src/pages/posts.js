@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import Logo from '../components/logo.js';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import styled from 'styled-components';
@@ -45,14 +44,13 @@ const DateDes = styled.p`
 `;
 
 const Posts = ({ data }) => (
-  <>
-    <Logo />
+  <> 
     <Layout>
       <SEO title="Travels" /> 
       <AllPosts>        
         {data.allMarkdownRemark.edges.map(({ node }) => (
-            <Link to={node.fields.slug}>
-              <Post key={node.id} >
+            <Link key={node.id} to={node.fields.slug}>
+              <Post>
                 <ImageContainer>
                   <img
                     alt='Blog post cover'

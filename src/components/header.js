@@ -1,7 +1,6 @@
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 import React, { useEffect, useState } from 'react';
-import logo from '../images/logo.svg';
 import variables from '../styles/variables';
 
 const HeaderComponent = styled.header`
@@ -27,11 +26,14 @@ const HeaderComponent = styled.header`
     position: fixed;
     top: 0;
   }
+
+  @media(max-width: 740px) {
+    display: none;
+  }
 `;
 
 const Navigation = styled.nav`
   display: flex;
-  flex-wrap: wrap;
 `;
 
 const LinkBox = styled.div`
@@ -52,14 +54,14 @@ const LinkBox = styled.div`
     z-index: 999;
   }
 
-  .logo {
-    display: none;
-    width: 100px;
-    padding: 8px 15px;
-  }
-  ${({ europa }) => europa && `
-      .logo { display: inline-block }
-    `}
+  // .logo {
+  //   display: none;
+  //   width: 100px;
+  //   padding: 8px 15px;
+  // }
+  // ${({ europa }) => europa && `
+  //     .logo { display: inline-block }
+  //   `}
 
   &:hover { background: rgba(35, 0, 0, 0.2); .link {color: #1f3a24}  }
 `;
@@ -80,10 +82,16 @@ const Header = () => {
       window.removeEventListener('scroll', () => handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    return () => {
+      console.log("cleaned up");
+    };
+  }, []);
   
   return <HeaderComponent className={isSticky ? 'sticky' : null} active={ window.location.pathname === '/' ? false : true} >
       <Navigation>
-        <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to='/' className='logo' ><img src={logo} alt='logo' /></Link></LinkBox>
+        {/* <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to='/' className='logo' ><img src={logo} alt='logo' /></Link></LinkBox> */}
         <LinkBox><Link to='/nasz-swiat/' className='link'>Nasz świat</Link></LinkBox>
         <LinkBox><Link to='/europa/' className='link'>Europa</Link></LinkBox>
         <LinkBox><Link to='/' className='link'>Polska</Link></LinkBox>

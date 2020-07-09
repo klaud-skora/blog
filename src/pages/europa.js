@@ -12,15 +12,16 @@ const EuropaComponent = styled.div`
   background: url(${image}) no-repeat center top/cover fixed;
   position: relative;
   top: 0;
+  height: 100%;
   
   &::after {
     z-index: 0;
     content: '';
     position: absolute;
-    top: 0;
+    top: ${variables.height.logoHeight};
     left: 0;
     width: 100%;
-    height: calc(100% - ${variables.height.footerHeight});
+    min-height: calc(100% - ${variables.height.footerHeight} - ${variables.height.logoHeight});
     background: rgba(255, 255, 255, .4);
   }
 `;
@@ -30,6 +31,10 @@ const Root = styled.div`
   padding-top: ${variables.height.headerHeight};
   display: flex;
   justify-content: flex-end;
+  
+  @media(max-width: 740px) {
+    padding-top: 0;
+  }
 `;
 
 const Europa = () => {

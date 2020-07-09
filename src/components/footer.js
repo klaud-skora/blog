@@ -15,7 +15,6 @@ const FooterComponent = styled.footer`
   flex-wrap: wrap;
   justify-content: space-around;
   color: ${variables.color.lightColor};
-  font-size: 12px;
   font-weight: 600;
   text-shadow: .1px .1px .1px #032a3f;
   width: 100vw;
@@ -26,6 +25,12 @@ const FooterComponent = styled.footer`
   &.tape {
     background: ${variables.color.footerColor};
   }
+
+  @media(max-width: 740px) {
+    justify-content: center;
+    span { width: 75%; font-size: 10px; }
+    padding: 0 10px;
+  }
 `;
 
 const Icons = styled.div`
@@ -35,6 +40,10 @@ const Icons = styled.div`
   width: 100px;
   height: 100%;
   padding: 0 10px;
+
+  @media(max-width: 740px) {
+    width: 20%;
+  }
 `;
 
 const Icon = styled.a`
@@ -44,10 +53,15 @@ const Icon = styled.a`
   &:hover {
     font-size: 25px;
   }
+  @media(max-width: 740px) {
+    padding: 4px;
+    font-size: 15px; 
+    padding-bottom: 8px;
+  }
 `;
 
 const Copyright = styled.span`
-  font-size: 13px;
+  font-size: 12px;
 `;
 
 const Footer = () => (
