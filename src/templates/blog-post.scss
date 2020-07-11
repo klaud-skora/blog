@@ -1,5 +1,5 @@
 .post-article {
-  padding: 100px 40px 10px;
+  padding: 100px 55px 10px;
 }
 
 .content {margin: 0 auto;}
@@ -11,7 +11,6 @@
 }
 
 .flex {
-  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -20,9 +19,9 @@
 }
 
 .box {
-  max-width: 45%;
+  width: 45%;
   flex: 45%;
-  min-width: 400px;
+  margin: 20px;
 }
 
 .image1 {
@@ -31,8 +30,7 @@
   margin-bottom: 25px;
 }
 .image2 {
-  height: 357px;
-  width: 200px;
+  max-height: 377px;
   margin-bottom: 25px;
 }
 
@@ -43,7 +41,7 @@
   position: relative;
   
 }
-.attach2 { background: url('../images/n27.jpg') no-repeat center left/cover fixed; } 
+.attach2 { background: url('../images/n27.jpg') no-repeat center left/cover fixed; }
 .attach3 { background: url('../images/n36.jpg') no-repeat top left/cover fixed; }
 
 .backImage {
@@ -74,5 +72,16 @@
 
 
 @media (max-width: 740px) {
+  .post-article { padding-top: 10px; }
   .flex { justify-content: center;}
+  .box {
+    width: 100%;
+    flex: 100%;
+  }
+  .image1 {
+    height: 337px;
+  }
+  .attach { height: 180px; }
+  .attach2 { background: url('../images/n27.jpg') no-repeat center left/contain fixed; }
+  .attach3 { background: url('../images/n36.jpg') no-repeat top left/contain fixed; }
 }

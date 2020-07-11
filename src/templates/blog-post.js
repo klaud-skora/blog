@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
-import Logo from '../components/logo'
 import SEO from '../components/seo';
 import './blog-post.scss';
 
@@ -10,7 +9,6 @@ export default ({ data }) => {
 
   return (
     <>
-      <Logo />
       <Layout>
         <SEO
           title={post.frontmatter.title}

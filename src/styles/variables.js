@@ -1,6 +1,7 @@
 const variables = {
   color: {
     // mainColor: '#1F1C2C',
+    // contactBack: '#eff2f5',
     mainColor: '#122916',
     footerColor: '#000',
     lightColor: '#fff',

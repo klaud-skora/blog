@@ -8,6 +8,18 @@ import variables from '../styles/variables';
 const AllPosts = styled.section`
   margin: 100px auto 40px;
   width: 80%;
+  @media (max-width: 740px) {
+    margin-top: 30px; 
+  }
+`;
+const Post = styled.article`
+  padding: 20px;
+  flex: 100%;
+  width: 100%;
+  display: flex;
+  height: 260px;
+  align-items: center;
+  @media (max-width: 740px) { height: 160px; position: relative; }
 `;
 
 const ImageContainer = styled.div`
@@ -20,27 +32,40 @@ const ImageContainer = styled.div`
     object-fit: cover;
     border: 1px solid ${variables.color.mainColor};
   }
+
+  @media (max-width: 740px) {
+    width: 100%;
+  }
+
 `;
 
 const Description = styled.div`
   margin-left: 20px;
   width: 45%;
+  p { font-size: 12px; }
+  @media (max-width: 740px) {
+    * { color: ${variables.color.lightColor}; text-shadow: 2px 2px 2px ${variables.color.footerColor}; }
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    h3 { font-size: 12px; }
+    p { display: none; }
+  }
 `;
 
-const Post = styled.article`
-  padding: 20px;
-  flex: 100%;
-  width: 100%;
-  display: flex;
-  height: 260px;
-  align-items: center;
-`;
 
-const DateDes = styled.p`
+const DateDes = styled.span`
   margin: 0;
-  fonst-size: .5rem;
+  fonst-size: .5em;
   color: grey;
+  display: block;
   text-align: right;
+  @media (max-width: 740px) {
+    font-size: 9px;
+    color: ${variables.color.lightColor};
+  }
 `;
 
 const Posts = ({ data }) => (
