@@ -7,8 +7,7 @@ tags:
 - włochy
 - porady
 - italy
-- Rzym
-- Roma
+- Salerno
 category: post
 intro: Kolory Kampanii - Stacja Salerno
 cover: ../images/n5.jpg
