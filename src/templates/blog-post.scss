@@ -6,6 +6,7 @@
   background-color: #94af98;
   padding: 6px 10px;
   border-radius: 5px;
+  word-break: break-all;
 }
 
 .flex {
@@ -44,6 +45,7 @@
 }
 .attach2 { background: url('../images/n27.jpg') no-repeat center left/cover fixed; }
 .attach3 { background: url('../images/n36.jpg') no-repeat top left/cover fixed; }
+.attach4 { background: url('../images/n72.jpg') no-repeat top left/cover fixed; }
 
 .backImage {
   position: relative;
@@ -92,9 +94,12 @@
   }
   .image1 {
     height: 337px;
+
+    &.long { height: 500px; }
   }
   .backImageOn { height: 310px; max-width: 100%; }
   .attach { height: 180px; }
   .attach2 { background: url('../images/n27.jpg') no-repeat center left/contain fixed; }
   .attach3 { background: url('../images/n36.jpg') no-repeat top left/contain fixed; }
+  .attach4 { background: url('../images/n72.jpg') no-repeat top left/contain fixed; }
 }

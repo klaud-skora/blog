@@ -23,8 +23,8 @@ cover: ../images/n6.jpg
 </p>
 
 <div class='flex narrow'>
-  <img class='box image1' src='../static/posts-images/n61.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n62.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n61.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n62.jpg' alt=''/>
 </div>
 
 <p>
@@ -52,7 +52,7 @@ cover: ../images/n6.jpg
   <img src='../static/posts-images/n64.jpg' alt=''/>
   <p class='textLight'>Już od pierwszego spojrzenia na zabudowania, to jedno szczególnie rzuciło nam się w oczy.</p>
 </div>
-<div class='image1'>
+<div class='image1 long'>
   <img src='../static/posts-images/n65.jpg' alt=''/>
   <p class='textLight'>
   Jak się okazało jest to cmentarz, do którego prowadzi tunel wydrążony w skałach. Zdecydowanie jest to najpiękniej położony grobowiec, jaki kiedykolwiek widzieliśmy...</p>
@@ -60,18 +60,18 @@ cover: ../images/n6.jpg
 </div>
 
 <div class='flex narrow'>
-  <img class='box image1' src='../static/posts-images/n66.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n67.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n68.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n69.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n66.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n67.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n68.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n69.jpg' alt=''/>
 </div>
 
 <p>A tutaj kilka zdjęć samego miasta:</p>
 
 <div class='flex narrow'>
-  <img class='box image1' src='../static/posts-images/n691.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n692.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n693.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n691.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n692.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n693.jpg' alt=''/>
 </div>
 
 <p>
@@ -79,9 +79,11 @@ cover: ../images/n6.jpg
 </p>
 
 <div class='flex'>
-  <img class='box image1' src='../static/posts-images/n694.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n695.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n696.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n697.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n698.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n694.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n695.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n696.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n697.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n698.jpg' alt=''/>
 </div>
+
+<p>Śmiało możemy powiedzieć, że Wybrzeże Amalfitańśkie nas zachwyciło. Na pewno tam wrócimy, ale tym razem na dłużej…💖💖</p>
