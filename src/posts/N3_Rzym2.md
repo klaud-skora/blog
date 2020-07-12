@@ -45,10 +45,10 @@ Zachęceni dotychczasowymi widokami ruszyliśmy w stronę jednej z najlepiej zac
 </p>
 
 <div class='flex'>
-  <img class='box image2' src='../static/posts-images/n37.jpg' alt=''/>
-  <img class='box image2' src='../static/posts-images/n38.jpg' alt=''/>
-  <img class='box image2' src='../static/posts-images/n39.jpg' alt=''/>
-  <img class='box image2' src='../static/posts-images/n391.jpg' alt=''/>
+  <img class='image2' src='../static/posts-images/n37.jpg' alt=''/>
+  <img class='image2' src='../static/posts-images/n38.jpg' alt=''/>
+  <img class='image2' src='../static/posts-images/n39.jpg' alt=''/>
+  <img class='image2' src='../static/posts-images/n391.jpg' alt=''/>
 </div>
 
 <p>
