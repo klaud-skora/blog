@@ -12,7 +12,7 @@ tags:
 category: post
 intro: To co pyszne i na pewno się opłaca w Rzymie
 cover: ../images/n4.jpg
-full_cover: ../images/ws.jpeg
+
 ---
 <p>
   W naszym cyklu „Witamy Porady” będziemy przedstawiać wam miejsca, w których można świetnie zjeść, przespać się, czy też wypić kawę lub drinka. W zestawieniach znajdą się zarówno restauracje, jak i kawiarnie czy drink bary. Dodatkowo, w postach z tej serii zagoszczą nasze opinie na temat miejsc noclegowych, z których mieliśmy okazję skorzystać.
@@ -125,6 +125,6 @@ full_cover: ../images/ws.jpeg
 <p>Cena dla 2 osób za dobę ze śniadaniem to ok. 180zł.</p>
 
 <div class='flex narrow'>
-  <img class='box image0' src='../static/posts-images/n50.jpg' alt=''/>
-  <img class='box image0' src='../static/posts-images/n51.jpg' alt=''/>
+  <img class='box image0' src='../static/posts-images/n491.jpg' alt=''/>
+  <img class='box image0' src='../static/posts-images/n492.jpg' alt=''/>
 </div>

@@ -9,7 +9,6 @@ tags:
 category: post
 intro: Witamy Świat ! Zapowiedź pierwszej podróży na blogu - Włochy
 cover: ../images/p1/n1.jpg
-full_cover: ../images/ws.jpeg
 ---
 <p>Ciao a tutti!<p>
 <p>Kolejnym, długo wyczekiwanym przez nas celem podróży stały się nasze ukochane Włochy. Tym razem wybraliśmy się do Rzymu, Neapolu, Salerno, a także na Wybrzeże Amalfitańskie. <p>

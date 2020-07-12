@@ -11,7 +11,6 @@ tags:
 category: post
 intro: Pobyt w Rzymie- dzień drugi
 cover: ../images/n3.jpg
-full_cover: ../images/ws.jpeg
 ---
 <div class='flex'>
 <div class='image1'>
