@@ -1,5 +1,5 @@
 ---
-title: Witamy Neapol - .#dzień 6 i 7
+title: 'Witamy Neapol - #dzień 6 i 7'
 date: 2020-02-24 8:00:00
 tags:
 - witamyświat
@@ -35,7 +35,7 @@ cover: ../images/n10.jpg
 
 –
 
-Ostatniego dnia udaliśmy się na lotnisko. Nie korzystaliśmy tym razem z żadnej komunikacji miejskiej, a zrobiliśmy sobie kilkukilometrowy spacer. Droga na port lotniczy wiedzie przez miasto. Można poznać kolejne ciekawe zakątki i podziwiać panoramę Neapolu z nieco innej strony. Jest to też okazja do zobaczenia kilku dzielnic, w których jest bardziej europejsko. Przede wszystkim panuje porządek, jest czysto, a na ulicach próżni szukać imigrantów.. 
+  Ostatniego dnia udaliśmy się na lotnisko. Nie korzystaliśmy tym razem z żadnej komunikacji miejskiej, a zrobiliśmy sobie kilkukilometrowy spacer. Droga na port lotniczy wiedzie przez miasto. Można poznać kolejne ciekawe zakątki i podziwiać panoramę Neapolu z nieco innej strony. Jest to też okazja do zobaczenia kilku dzielnic, w których jest bardziej europejsko. Przede wszystkim panuje porządek, jest czysto, a na ulicach próżni szukać imigrantów.. 
 </p>
 
 <div class='flex'>

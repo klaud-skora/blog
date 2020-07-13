@@ -1,5 +1,5 @@
 ---
-title: Witamy Porady .#1 - Rzym
+title: 'Witamy Porady #1 - Rzym'
 date: 2020-02-10 8:00:00
 tags:
 - witamyświat
@@ -26,9 +26,7 @@ cover: ../images/n4.jpg
 
 <p>
   Przytulna, lokalna Trattoria. Klienci to głównie miejscowi. W karcie oczywiście przystawki, pizza, makarony. Ceny jak na Rzym standardowe (7-11 euro za danie).
-</p>
 
-<p>
   Polecamy pyszną mozzarellę di bufala na przystawkę, natomiast jeśli idzie o dania główne to naszym faworytem jest spaghetti carbonara – jedna z najlepszych jakie jedliśmy w życiu.
 </p>
 
@@ -40,9 +38,7 @@ cover: ../images/n4.jpg
 
 <p>
   Wspaniała, rodzinna restauracja, w której panuje bardzo swobodna atmosfera. Miejsce to wyróżniają niespotykanie niskie ceny (4-8 euro za danie) i pyszne jedzenie.
-</p>
 
-<p>
   Polecamy pizzę Diavolę oraz spaghetti carbonara – nieco inny sposób przyrządzenia niż w Tratorii Da Simonetta, jednak równie fantastyczny smak.
 </p>
 
@@ -53,7 +49,8 @@ cover: ../images/n4.jpg
 <h2>3. La Taverna Italiana (Viale Manzoni 107)</h2>
 
 <p>
-  Bardzo dobry wybór na posiłek w pobliżu dworca Roma Termini. Przyzwoite ceny, bardzo smaczne makarony oraz pizza. Dodatkowo przemiła obsługa, która sprawia, że można poczuć się swobodnie.<br><br>
+  Bardzo dobry wybór na posiłek w pobliżu dworca Roma Termini. Przyzwoite ceny, bardzo smaczne makarony oraz pizza. Dodatkowo przemiła obsługa, która sprawia, że można poczuć się swobodnie.
+
   Polecamy Lasagne – palce lizać!
 </p>
 
@@ -112,13 +109,9 @@ cover: ../images/n4.jpg
 
 <p>
   Miejsce, w którym zatrzymaliśmy się podczas naszego pobytu w Rzymie. Ten sympatyczny hotelik, prowadzony przez Piero oraz Paole, położony jest w pobliżu stacji metra San Giovanni, niedaleko Arcybazyliki Św. Jana na Lateranie.
-</p>
 
-<p>
   Nasz pokój był całkiem duży, dysponowaliśmy również prywatną łazienką. Na wyposażeniu był TV, klimatyzacja, suszarka do włosów, ręczniki.
-</p>
 
-<p>
   Kontakt z właścicielami był znakomity. Przed przyjazdem, z Piero rozmawialiśmy na WhatsApp, natomiast na miejscu obsługiwała nas Paola. Oboje mówią płynnie i wyraźnie po angielsku.
 </p>
 

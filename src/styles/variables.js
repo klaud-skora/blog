@@ -3,6 +3,7 @@ const variables = {
     // mainColor: '#1F1C2C',
     // contactBack: '#eff2f5',
     mainColor: '#122916',
+    // mainColor: '#77e9fd', // niebieski jaskrawy
     footerColor: '#000',
     lightColor: '#fff',
   },

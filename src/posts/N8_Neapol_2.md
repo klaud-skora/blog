@@ -1,5 +1,5 @@
 ---
-title: Witamy Neapol - dzień .#6 - cz2
+title: 'Witamy Neapol - dzień #6 - cz2'
 date: 2020-02-18 8:00:00
 tags:
 - witamyświat

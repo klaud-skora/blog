@@ -1,5 +1,5 @@
 ---
-title: Witamy Świat .#1 - Włochy (Rzym i Kampania)
+title: 'Witamy Świat #1 - Włochy (Rzym i Kampania)'
 date: 2020-02-4 8:00:00
 tags:
 - witamyświat
@@ -10,8 +10,11 @@ category: post
 intro: Witamy Świat ! Zapowiedź pierwszej podróży na blogu - Włochy
 cover: ../images/p1/n1.jpg
 ---
-<p>Ciao a tutti!<p>
-<p>Kolejnym, długo wyczekiwanym przez nas celem podróży stały się nasze ukochane Włochy. Tym razem wybraliśmy się do Rzymu, Neapolu, Salerno, a także na Wybrzeże Amalfitańskie. <p>
+<p>
+  Ciao a tutti!
+
+  Kolejnym, długo wyczekiwanym przez nas celem podróży stały się nasze ukochane Włochy. Tym razem wybraliśmy się do Rzymu, Neapolu, Salerno, a także na Wybrzeże Amalfitańskie. 
+<p>
 
 <div class='flex'>
 <ul class='box'>W ujęciu ogólnym plan naszej wycieczki wyglądał następująco:
@@ -33,11 +36,11 @@ cover: ../images/p1/n1.jpg
 </div>
 
 <p>
-Budżet całej operacji wyniósł ostatecznie ok. 3500zł. Po Włoszech przemieszczaliśmy się przede wszystkim pociągami, a w samych miastach oczywiście pieszo. 
+  Budżet całej operacji wyniósł ostatecznie ok. 3500zł. Po Włoszech przemieszczaliśmy się przede wszystkim pociągami, a w samych miastach oczywiście pieszo. 
 
-W następnych postach poznacie dokładny przebieg poszczególnych dni, a także miejsca, w których można robić to, co kochamy najbardziej, czyli dobrze zjeść.
+  W następnych postach poznacie dokładny przebieg poszczególnych dni, a także miejsca, w których można robić to, co kochamy najbardziej, czyli dobrze zjeść.
 
-Zapraszamy we wspólną podróż naszymi oczami! 
+  Zapraszamy we wspólną podróż naszymi oczami! 
 </p>
 
 

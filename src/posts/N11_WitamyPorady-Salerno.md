@@ -1,5 +1,5 @@
 ---
-title: Witamy Porady .#2 - Salerno/Neapol
+title: 'Witamy Porady #2 - Salerno/Neapol'
 date: 2020-02-27 8:00:00
 tags:
 - witamyświat
@@ -27,9 +27,7 @@ cover: ../images/n11.jpg
 
 <p>
   Niepozorna, nierzucająca się w oczy pizzeria. Doskonała w smaku pizza. Radzimy jednak wziąć jedzonko na wynos i udać się na pobliski, nadmorski deptak i usiąść sobie tuż nad wodą. Obsługa w lokalu pozostawia nieco do życzenia. Tylko jedna Pani mówi trochę po angielsku. Ceny niższe od standardowych (najtańsza pizza 3 euro). 🍕
-</p>
 
-<p>
   Polecamy każdy rodzaj tego włoskiego przysmaku - zwłaszcza naszą ukochaną Diavolę oraz Di bufalę. Smakowały wybornie! 😍😍
 </p>
 
@@ -51,9 +49,7 @@ cover: ../images/n11.jpg
 
 <p>
   Apartament położony w górnej części miasta, co sprawia, że z tarasu rozpościera się cudowny widok. Mieszkanie składa się z dobrze wyposażonej kuchni z salonem, łazienki, sypialni z wygodnym łóżkiem oraz dużego balkonu.
-</p>
 
-<p>
   Kontakt z właścicielką jest bardzo dobry. Mówi ona płynnie i wyraźnie po angielsku. Opowiedziała nam nieco o mieście, restauracjach, które warto odwiedzić itp. Cena to około 45 euro za dobe/2 osoby.
 </p>
 
@@ -112,9 +108,9 @@ cover: ../images/n11.jpg
 
 <p>
   Przepyszna neapolitańska pizza. Uprzejma obsługa, zamówienie zrealizowane bardzo szybko. Ceny bardzo dobre (4-9 euro), a do tego szeroki wybór. Każdy znajdzie pizzę dla siebie. 🍕
+  
+  Polecamy pizzę di bufala z dodatkiem rukoli. Coś pięknego 😊
 </p>
-
-<p>Polecamy pizzę di bufala z dodatkiem rukoli. Coś pięknego 😊</p>
 
 <div class='backImage'>
   <img src='../static/posts-images/n1113.jpg' alt=''/>
@@ -142,13 +138,9 @@ cover: ../images/n11.jpg
 
 <p>
   Miejsce, w którym zatrzymaliśmy się podczas naszego pobytu w Neapolu. Przytulne mieszkanie składające się z sypialni, kuchni  i łazienki. Bardzo schludnie i czysto, dodatkowo możliwość korzystania z ekspresu do kawy. Zaletą jest niewątpliwie cudowny widok z balkonu na dachy miasta. Kontakt z właścicielem był bardzo dobry. Mówił on biegle po angielsku, był niezwykle pomocny.
-</p>
 
-<p>
   Obiekt położony jest w pobliżu dzielnicy Forcella. Trzeba się więc nastawić na sporo śmieci i chaosu. Sam budynek jest jednak bardzo zadbany. Pamiętać trzeba, że koszt jednorazowego użycia windy to 10 centów!
-</p>
 
-<p>
   Cena dla 2 osób za dobę to ok. 180zł. W jej skład nie wchodzi śniadanie, w pokoju znaleźliśmy jednak sporo przekąsek typu ciastka, grzanki.
 </p>
 

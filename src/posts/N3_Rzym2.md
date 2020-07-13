@@ -1,5 +1,5 @@
 ---
-title: Witamy Rzym - dzień .#2
+title: 'Witamy Rzym - dzień #2'
 date: 2020-02-8 8:00:00
 tags:
 - witamyświat
@@ -17,8 +17,7 @@ cover: ../images/n3.jpg
   <div class='box'>
     <p>
       Drugi dzień w Rzymie rozpoczęliśmy od dość wczesnej pobudki. W kuchni czekało już na nas włoskie śniadanie przygotowane przez gospodarzy. Na stole były w zasadzie same słodkości: tosty z nutellą lub dżemem, muffiny czekoladowe, ciasto, do tego oczywiście mocna kawa.
-    </p>
-    <p>
+
       Pojedzeni ruszyliśmy na całodniowe zwiedzanie. Już na samym początku minęliśmy Arcybazylikę Św. Jana na Lateranie, która jest katedrą Biskupa Rzymu. Pochowanych jest w niej 23 papieży, a w przyległym do niej pałacu mieszkało ponad 150 Zwierzchników Kościoła. Co więcej, znajdują się w niej Święte Schody, po których stąpał Chrystus. Arcybazylika była też miejscem podpisania Traktatów Laterańskich. Z dzielnicy San Giovanni udaliśmy się na Via Emanuele Filiberto w stronę Placu Vittorio Emanuele II, a następnie skierowaliśmy swe kroki ku Forum Romanum. Było to centrum życia towarzyskiego, religijnego oraz politycznego starożytnego Rzymu. Oświetlane mocnymi promieniami słońca wywarło ono na nas ogromne wrażenie. W całej okolicy Forum Romanum miasto tętni życiem. Co kilka metrów swoje umiejętności prezentują uliczni artyści: tańczą, śpiewają i malują. To wszystko stwarza niebywałą i wyjątkową atmosferę. Samo wejście na teren Forum Romanum kosztuje 16 euro (bilet umożliwia wejście także do Coloseum). Młodzież do 17 r.ż. wchodzi za darmo, natomiast bilet dla młodzieży (17-25) z UE to wydatek zaledwie 2 euro.
     </p>
   </div>
@@ -58,9 +57,7 @@ cover: ../images/n3.jpg
 
 <p>
   Po wejściu na szczyt schodów skierowaliśmy się w stronę Willi rodu Borghese na wzgórzu Pincio. Willę otacza uroczy park, w którym można odetchnąć od promieni słonecznych oraz nacieszyć oczy niesamowitą panoramą Rzymu. Po zejściu ze wzgórza trafiliśmy na Piazza del Popolo. Plac ten niegdyś przez wiele lat był miejscem publicznych egzekucji. Znajdują się na nim liczne kościoły, a obecnie jest jednym z najpopularniejszych miejsc w mieście.
-</p>
 
-<p>
   Już nieco zmęczeni idąc Via Federico Cesi wylądowaliśmy na Piazza Cavour. Znajduje się na nim wiele okazałych palm, a tuż obok wybudowano imponujący Pałac Sprawiedliwości.
 </p>
 
@@ -77,7 +74,7 @@ cover: ../images/n3.jpg
 </div>
 
 <p>
-Tego dnia Watykan był truskawką na torcie (😊). Najmniejsze państwo świata to siedziba najważniejszych władz Kościoła, a przede wszystkim Papieża. Oczywiście głównym punktem okazała się Bazylika Św. Piotra, która wedle tradycji powstała w miejscu pochówku Św. Piotra. Warto jednak zobaczyć też Muzea oraz Ogrody Watykańskie.
+  Tego dnia Watykan był truskawką na torcie (😊). Najmniejsze państwo świata to siedziba najważniejszych władz Kościoła, a przede wszystkim Papieża. Oczywiście głównym punktem okazała się Bazylika Św. Piotra, która wedle tradycji powstała w miejscu pochówku Św. Piotra. Warto jednak zobaczyć też Muzea oraz Ogrody Watykańskie.
 </p>
 
 <div class='backImage backImage2'>
@@ -85,7 +82,7 @@ Tego dnia Watykan był truskawką na torcie (😊). Najmniejsze państwo świata
 </div>
 
 <p>
-Gdy dzień zbliżał się ku końcowi wypiliśmy jeszcze świetną kawę i obraliśmy kierunek ku dzielnicy San Giovani, gdzie znajdował się nasz nocleg. Po drodze na placu przed Arcybazyliką Św. Jana usiedliśmy na ławce racząc się dwoma butelkami białego wina. Wieczorem zajrzeliśmy też do znakomitego Foodie, gdzie w międzynarodowym towarzystwie spędziliśmy czas do późnych godzin nocnych..
+  Gdy dzień zbliżał się ku końcowi wypiliśmy jeszcze świetną kawę i obraliśmy kierunek ku dzielnicy San Giovani, gdzie znajdował się nasz nocleg. Po drodze na placu przed Arcybazyliką Św. Jana usiedliśmy na ławce racząc się dwoma butelkami białego wina. Wieczorem zajrzeliśmy też do znakomitego Foodie, gdzie w międzynarodowym towarzystwie spędziliśmy czas do późnych godzin nocnych..
 </p>
 
 <div class='backImage backImage2'>

@@ -1,5 +1,5 @@
 ---
-title: Witamy Neapol - dzień .#7 - cz3
+title: 'itamy Neapol - dzień #7 - cz3'
 date: 2020-02-22 8:00:00
 tags:
 - witamyświat
@@ -36,9 +36,7 @@ cover: ../images/n9.jpg
 
 <p>
   My jednak swoje kroki skierowaliśmy na nadmorski deptak, którym doszliśmy do średniowiecznego Castel dell'Ovo, czyli zamku jajecznego. Nazwa wzięła się od legendy o magicznym jajku, które posiadał poeta Wergiliusz. Zmarł On i pochowany został w Neapolu, a owo magiczne jajko wbudowano w fundamenty fortecy. Na grobli prowadzącej do wewnątrz twierdzy spotkać można licznych nowożeńców, gdyż jest to ulubione miejsce Neapolitańczyków na robienie ślubnych zdjęć. Zdecydowanie warto poświęcić kilka minut na zwiedzanie zamku. Po wejściu na górę rozpościera się cudowny widok na Neapol. Polecamy przyjść wieczorem, panorama jest niesamowita..    
-</p>
 
-<p>
   Tuż obok zamku jajecznego znajduje się niezwykle klimatyczny, zabytkowy port, w którym zagościliśmy na kilka chwil i na pewno nie żałujemy. 
 </p>
 
