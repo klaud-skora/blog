@@ -1,6 +1,6 @@
 ---
 title: Witamy Neapol - dzień .#6 - cz2
-date: 2020-02-16 8:00:00
+date: 2020-02-18 8:00:00
 tags:
 - witamyświat
 - podróże 
@@ -10,7 +10,7 @@ tags:
 - Neapol
 category: post
 intro: Kolejna odsłona Neapolu
-cover: ../images/n7.jpg
+cover: ../images/n8.jpg
 
 ---
 <p>Zapraszamy na kolejną część relacji z Neapolu. W niej między innymi o dachu, który chronić miał przed ptasimi odchodami, a dziś podziwiają go tysiące turystów. 😲🕊</p>
@@ -25,8 +25,8 @@ cover: ../images/n7.jpg
   <img class='box image0' src='../static/posts-images/n801.jpg' alt=''/>
   <img class='box image0' src='../static/posts-images/n802.jpg' alt=''/>
   <img class='box image0' src='../static/posts-images/n803.jpg' alt=''/>
-  <img class='box image0' src='../static/posts-images/n804.jpg' alt=''/>
   <img class='box image0' src='../static/posts-images/n805.jpg' alt=''/>
+  <img class='box image0' src='../static/posts-images/n804.jpg' alt=''/>
 </div>
 
 <p>
