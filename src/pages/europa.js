@@ -28,12 +28,18 @@ const EuropaComponent = styled.div`
 
 const Text = styled.p`
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
   position: absolute;
   z-index: 999;
   bottom: 50px;
   left: 40px;
-  width: 70%;
+  text-align: justify;
+  text-shadow: .3px .1px .1px #fff;
+  width: 80%;
+  padding: 4px;
+  @media(max-width: 740px) {
+    bottom: 110px;
+  }
 `;
 
 const Root = styled.div`

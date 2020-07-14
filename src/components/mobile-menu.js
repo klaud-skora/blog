@@ -103,7 +103,7 @@ const MobileMenu = () => {
       <Menu styles={styles}  pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
         <LinkBox><Link to='/nasz-swiat/' className='link'>Nasz świat</Link></LinkBox>
         <LinkBox><Link to='/europa/' className='link'>Europa</Link></LinkBox>
-        <LinkBox><Link to='/' className='link'>Polska</Link></LinkBox>
+        <LinkBox><Link to='/Poland' className='link'>Polska</Link></LinkBox>
         <LinkBox><Link to='/posts' className='link'>Posty</Link></LinkBox>
       </Menu>
     </MenuContainer>;

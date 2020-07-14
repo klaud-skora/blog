@@ -17,7 +17,7 @@ const OurWorldContainer = styled.div`
 const About = styled.div`
   width: 100%;
   padding: 40px;
-  h2, p { color: ${variables.color.lightColor}; text-shadow: 1px 1px 4px ${variables.color.footerColor}}
+  h2, p { color: ${variables.color.lightColor}; text-shadow: 1px 1px .4px ${variables.color.footerColor}; font-weight: 800; }
   text-align: justify;
   position: absolute;
   bottom: 0;

@@ -37,7 +37,7 @@ const Map = ({ setTooltipContent }) => (
       projection='geoAzimuthalEqualArea'
       projectionConfig={{
         rotate: [-16.0, -48.0, 8],
-        scale: 700
+        scale: 750
       }}
     >
       <Geographies geography={geoUrl}>
@@ -61,7 +61,8 @@ const Map = ({ setTooltipContent }) => (
                 default: {
                   fill: checkedCountries.includes(geo.properties.NAME) ? "#122916" : " #ffffff00",
                   outline: 'none',
-                  stroke: '#122916'
+                  stroke: '#122916',
+                  strokeWidth: 1.25,
                 },
                 hover: {
                   fill: "#122916",
