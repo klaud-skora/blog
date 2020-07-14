@@ -9,6 +9,7 @@ tags:
 - italy
 - Neapol
 category: post
+country: Italy
 intro: Południe Włoszech - Neapol
 cover: ../images/n7.jpg
 

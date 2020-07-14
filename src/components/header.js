@@ -49,7 +49,7 @@ const LinkBox = styled.div`
     font-weight: 600;
     cursor: pointer;
     font-size: 20px;
-    text-shadow: 0.1px 0.5px 2px ${variables.color.mainColor};
+    text-shadow: 0.1px 0.5px .2px ${variables.color.mainColor};
     padding: 8px 15px;
     z-index: 999;
   }
@@ -94,7 +94,7 @@ const Header = () => {
         {/* <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to='/' className='logo' ><img src={logo} alt='logo' /></Link></LinkBox> */}
         <LinkBox><Link to='/nasz-swiat/' className='link'>Nasz świat</Link></LinkBox>
         <LinkBox><Link to='/europa/' className='link'>Europa</Link></LinkBox>
-        <LinkBox><Link to='/' className='link'>Polska</Link></LinkBox>
+        <LinkBox><Link to='/Poland' className='link'>Polska</Link></LinkBox>
         <LinkBox><Link to='/posts' className='link'>Posty</Link></LinkBox>
       </Navigation>
     </HeaderComponent>;

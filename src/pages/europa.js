@@ -12,7 +12,7 @@ const EuropaComponent = styled.div`
   background: url(${image}) no-repeat center top/cover fixed;
   position: relative;
   top: 0;
-  height: 100%;
+  max-height: 990px;
   
   &::after {
     z-index: 0;
@@ -24,6 +24,16 @@ const EuropaComponent = styled.div`
     min-height: calc(100% - ${variables.height.footerHeight} - ${variables.height.logoHeight});
     background: rgba(255, 255, 255, .4);
   }
+`;
+
+const Text = styled.p`
+  font-weight: 700;
+  font-size: 17px;
+  position: absolute;
+  z-index: 999;
+  bottom: 50px;
+  left: 40px;
+  width: 70%;
 `;
 
 const Root = styled.div`
@@ -47,6 +57,9 @@ const Europa = () => {
           <Map setTooltipContent={setContent} />
           <ReactTooltip>{content}</ReactTooltip>
         </Root>
+        <Text>
+          Na mapce powyżej zaznaczyliśmy kraje, które od początku isnienia bloga udało nam się odwiedzić :). Mamy nadzieję, że mapa ta będzie się stopniowo wypełniać, ponieważ pod oznaczonymi państwami kryją się posty z ciekawostkami i poradami, a dla nas wspaniałymi wspomnieniami.
+        </Text>
       </Layout>
     </EuropaComponent>
   </>;

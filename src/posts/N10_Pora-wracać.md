@@ -9,6 +9,7 @@ tags:
 - italy
 - Neapol
 category: post
+country: Italy
 intro: Ostatni dzień w Neapolu
 cover: ../images/n10.jpg
 

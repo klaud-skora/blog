@@ -13,6 +13,7 @@ tags:
 - food
 - dolci
 category: post
+country: Italy
 intro: Salerno i Neapol - gdzie zjeść? - gdzie spać?
 cover: ../images/n11.jpg
 

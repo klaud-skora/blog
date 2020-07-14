@@ -1,4 +1,5 @@
 import React, { memo } from 'react';
+import { Link } from 'gatsby';
 import {
   ComposableMap,
   Geographies,
@@ -45,6 +46,7 @@ const Map = ({ setTooltipContent }) => (
           geographies
           .filter(c => c.properties.REGION_UN === 'Europe')
           .map(geo => (
+            <Link key={geo.rsmKey} to={checkedCountries.includes(geo.properties.NAME) ? `/${geo.properties.NAME}/` : `#`}>
             <Geography
               key={geo.rsmKey}
               geography={geo}
@@ -73,6 +75,7 @@ const Map = ({ setTooltipContent }) => (
                 }
               }}
             />
+            </Link>
           ))
         }
       </Geographies>

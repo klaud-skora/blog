@@ -10,6 +10,7 @@ tags:
 - Amalfi
 - Positano
 category: post
+country: Italy
 intro: Bajkowe wybrzeże włoskie - przystanek Amalfi i Positano
 cover: ../images/n6.jpg
 

@@ -13,6 +13,7 @@ tags:
 - rudawyjanowickie
 - mountains
 category: post
+country: Poland
 intro: Zdobywamy szczyty i zwiedzamy okolice
 cover: ../images/n13.jpg
 

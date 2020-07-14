@@ -9,6 +9,7 @@ tags:
 - Rzym
 - Roma
 category: post
+country: Italy
 intro: Pobyt w Rzymie- dzień pierwszy
 cover: ../images/n2.jpg
 ---

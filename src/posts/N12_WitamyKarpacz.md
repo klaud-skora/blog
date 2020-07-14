@@ -11,6 +11,7 @@ tags:
 - góry
 - mountains
 category: post
+country: Poland
 intro: Górskie wędrówki - czas start!
 cover: ../images/n12.jpg
 

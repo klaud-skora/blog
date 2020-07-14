@@ -8,8 +8,9 @@ tags:
 - góry
 - kgp
 category: post
-intro: Góry granicy polsko-czeskiej
-cover: ../images/n14.jpg
+country: Poland
+intro: Góry stołowe, czyli kolejny szczyt do kolekcji
+cover: ../images/n15.jpg
 
 ---
 <p>

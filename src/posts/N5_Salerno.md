@@ -9,6 +9,7 @@ tags:
 - italy
 - Salerno
 category: post
+country: Italy
 intro: Kolory Kampanii - Stacja Salerno
 cover: ../images/n5.jpg
 ---

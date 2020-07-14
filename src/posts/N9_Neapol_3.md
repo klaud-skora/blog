@@ -9,6 +9,7 @@ tags:
 - italy
 - Neapol
 category: post
+country: Italy
 intro: Kolejna odsłona Neapolu
 cover: ../images/n9.jpg
 

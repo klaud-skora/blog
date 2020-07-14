@@ -10,6 +10,7 @@ tags:
 - Rzym
 - Roma
 category: post
+country: Italy
 intro: To co pyszne i na pewno się opłaca w Rzymie
 cover: ../images/n4.jpg
 

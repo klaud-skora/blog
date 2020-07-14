@@ -8,6 +8,7 @@ tags:
 - góry
 - kgp
 category: post
+country: Poland
 intro: Góry granicy polsko-czeskiej
 cover: ../images/n14.jpg
 
