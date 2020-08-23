@@ -77,10 +77,12 @@ const Header = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', () => handleScroll);
-    };
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', () => handleScroll);
+      };
+    }
   }, []);
 
   useEffect(() => {
@@ -89,9 +91,8 @@ const Header = () => {
     };
   }, []);
   
-  return <HeaderComponent className={isSticky ? 'sticky' : null} active={ window.location.pathname === '/' ? false : true} >
+  return <HeaderComponent className={isSticky ? 'sticky' : null} active >
       <Navigation>
-        {/* <LinkBox europa={ window.location.pathname === '/europa/' ? true : false } ><Link to='/' className='logo' ><img src={logo} alt='logo' /></Link></LinkBox> */}
         <LinkBox><Link to='/nasz-swiat/' className='link'>Nasz świat</Link></LinkBox>
         <LinkBox><Link to='/europa/' className='link'>Europa</Link></LinkBox>
         <LinkBox><Link to='/Poland' className='link'>Polska</Link></LinkBox>
