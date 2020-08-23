@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import Map from '../components/map.js';
-import ReactTooltip from 'react-tooltip';
+// import ReactTooltip from 'react-tooltip';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import styled from 'styled-components';
 import image from '../images/IMG_20200706_211108.jpg';
 import variables from '../styles/variables';
 
+var ReactTooltip = require('rc-tooltip');
 const EuropaComponent = styled.div`
   
   background: url(${image}) no-repeat center top/cover fixed;
