@@ -60,10 +60,10 @@ const Europa = () => {
     <EuropaComponent>
       <Layout>
         <SEO title='Nasz Świat' />
-        <Root>
+        {/* <Root>
           <Map setTooltipContent={setContent} />
           <ReactTooltip>{content}</ReactTooltip>
-        </Root>
+        </Root> */}
         <Text>
           Na mapce powyżej zaznaczyliśmy kraje, które od początku isnienia bloga udało nam się odwiedzić :). Mamy nadzieję, że mapa ta będzie się stopniowo wypełniać, ponieważ pod oznaczonymi państwami kryją się posty z ciekawostkami i poradami, a dla nas wspaniałymi wspomnieniami.
         </Text>
