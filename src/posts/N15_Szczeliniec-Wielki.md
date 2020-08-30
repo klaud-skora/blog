@@ -24,7 +24,7 @@ cover: ../images/n15.jpg
 </p>
 
 <div class='flex'>
-  <img class='box imageOn' src='../static/n1501.jpg' alt=''/>
+  <img class='box imageOn' src=`{file.node.publicURL}/n1501.jpg` alt=''/>
   <img class='box imageOn' src='../static/n1502.jpg' alt=''/>
 </div>
 
@@ -57,7 +57,7 @@ cover: ../images/n15.jpg
 </p>
 
 <div class='flex narrow'>
-  <img class='box imageOn' src='../static/n1508.jpg' alt=''/>
+  <img class='box imageOn' src=`{file.node.publicURL}/static/n1508.jpg` alt=''/>
 </div>
 
 <p>
