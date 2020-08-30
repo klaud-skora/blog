@@ -68,10 +68,10 @@ const Footer = () => (
   <FooterComponent className={ 'tape'}>
     <Copyright>© Witamy Świat {new Date().getFullYear()} All rights reserved.</Copyright>
     <Icons>
-      <Icon href="https://www.facebook.com/witamyswiat/">
+      <Icon target="_blank" href="https://www.facebook.com/witamyswiat/">
         <FontAwesomeIcon icon={ faFacebook } />
       </Icon>
-      <Icon href="https://www.instagram.com/witamyswiat/">
+      <Icon target="_blank" href="https://www.instagram.com/witamyswiat/">
         <FontAwesomeIcon icon={ faInstagram } />
       </Icon>
     </Icons>
