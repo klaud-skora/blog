@@ -24,8 +24,8 @@ cover: ../images/n15.jpg
 </p>
 
 <div class='flex'>
-  <img class='box imageOn' src='../static/posts-images/n1501.jpg' alt=''/>
-  <img class='box imageOn' src='../static/posts-images/n1502.jpg' alt=''/>
+  <img class='box imageOn' src='../static/n1501.jpg' alt=''/>
+  <img class='box imageOn' src='../static/n1502.jpg' alt=''/>
 </div>
 
 <p>
@@ -46,10 +46,10 @@ cover: ../images/n15.jpg
 
 
 <div class='flex'>
-  <img class='box imageOn' src='../static/posts-images/n1504.jpg' alt=''/>
-  <img class='box imageOn' src='../static/posts-images/n1505.jpg' alt=''/>
-  <img class='box imageOn' src='../static/posts-images/n1506.jpg' alt=''/>
-  <img class='box imageOn' src='../static/posts-images/n1507.jpg' alt=''/>
+  <img class='box imageOn' src='../static/n1504.jpg' alt=''/>
+  <img class='box imageOn' src='../static/n1505.jpg' alt=''/>
+  <img class='box imageOn' src='../static/n1506.jpg' alt=''/>
+  <img class='box imageOn' src='../static/n1507.jpg' alt=''/>
 </div>
 
 <p>
@@ -57,7 +57,7 @@ cover: ../images/n15.jpg
 </p>
 
 <div class='flex narrow'>
-  <img class='box imageOn' src='../static/posts-images/n1508.jpg' alt=''/>
+  <img class='box imageOn' src='../static/n1508.jpg' alt=''/>
 </div>
 
 <p>
@@ -65,7 +65,7 @@ cover: ../images/n15.jpg
 </p>
 
 <div class='flex narrow'>
-  <img class='box image0' src='../static/posts-images/n1509.jpg' alt=''/>
+  <img class='box image0' src='../static/n1509.jpg' alt=''/>
 </div>
 
 <p>

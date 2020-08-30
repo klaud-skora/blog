@@ -42,10 +42,10 @@ cover: ../images/n3.jpg
 </p>
 
 <div class='flex'>
-  <img class='image2' src='../static/posts-images/n37.jpg' alt=''/>
-  <img class='image2' src='../static/posts-images/n38.jpg' alt=''/>
-  <img class='image2' src='../static/posts-images/n39.jpg' alt=''/>
-  <img class='image2' src='../static/posts-images/n391.jpg' alt=''/>
+  <img class='image2' src='../static/n37.jpg' alt=''/>
+  <img class='image2' src='../static/n38.jpg' alt=''/>
+  <img class='image2' src='../static/n39.jpg' alt=''/>
+  <img class='image2' src='../static/n391.jpg' alt=''/>
 </div>
 
 <p>
