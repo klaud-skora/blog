@@ -9,7 +9,7 @@ tags:
 category: post
 country: Italy
 intro: Witamy Świat ! Zapowiedź pierwszej podróży na blogu - Włochy
-cover: ../images/p1/n1.jpg
+cover: ../images/n1.jpg
 ---
 <p>
   Ciao a tutti!
