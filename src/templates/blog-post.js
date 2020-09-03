@@ -18,10 +18,7 @@ export default ({ data }) => {
         />
         <article className="post-article">
           <h1 className="title">{post.frontmatter.title}</h1>
-          {/* <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} /> */}
-          <div className="content">
-            {post.html}
-          </div>
+          <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
       </Layout>
     </>
