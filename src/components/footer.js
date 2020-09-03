@@ -65,7 +65,7 @@ const Copyright = styled.span`
 `;
 
 const Footer = () => (
-  <FooterComponent className={ typeof window !== 'undefined' & window.location.pathname === '/' ? 'sticky' : 'tape'}>
+  <FooterComponent className={ typeof window !== 'undefined' && window.location.pathname === '/' ? 'sticky' : 'tape'}>
     <Copyright>© Witamy Świat {new Date().getFullYear()} All rights reserved.</Copyright>
     <Icons>
       <Icon target="_blank" href="https://www.facebook.com/witamyswiat/">
