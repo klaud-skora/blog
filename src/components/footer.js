@@ -53,6 +53,11 @@ const Icon = styled.a`
   &:hover {
     font-size: 25px;
   }
+  .fa {
+    width: 200px;
+    height: 200px;
+  }
+  
   @media(max-width: 740px) {
     padding: 4px;
     font-size: 15px; 
