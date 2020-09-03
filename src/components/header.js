@@ -91,7 +91,7 @@ const Header = () => {
     };
   }, []);
   
-  return <HeaderComponent className={isSticky ? 'sticky' : null} active >
+  return <HeaderComponent className={isSticky ? 'sticky' : null} active={ (typeof window !== 'undefined' && window.location.pathname !== '/')} >
       <Navigation>
         <LinkBox><Link to='/nasz-swiat/' className='link'>Nasz świat</Link></LinkBox>
         <LinkBox><Link to='/europa/' className='link'>Europa</Link></LinkBox>

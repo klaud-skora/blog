@@ -11,6 +11,8 @@ const Image = styled.div`
   
   img {
     height: 100%;
+    max-height: 1024px;
+    max-width: 1400px; 
     width: 100%;
     object-fit: cover;
     object-position: 0 27%;
