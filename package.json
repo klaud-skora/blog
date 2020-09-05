@@ -38,6 +38,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-simple-maps": "^2.1.2",
+    "react-tooltip": "^4.2.9",
     "styled-components": "^5.1.1",
     "wowjs": "^1.1.3"
   },
