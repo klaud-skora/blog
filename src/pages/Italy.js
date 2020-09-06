@@ -58,7 +58,7 @@ const Description = styled.div`
 
 const DateDes = styled.span`
   margin: 0;
-  fonst-size: .5em;
+  font-size: .5em;
   color: grey;
   display: block;
   text-align: right;

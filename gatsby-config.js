@@ -22,15 +22,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `posts`,
+        path: `${__dirname}/src/posts`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts`,
+        // name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
     {
@@ -40,6 +40,14 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
+              plugins: [
+                {
+                  resolve: `gatsby-remark-images`,
+                  options: {
+                    maxWidth: 800,
+                  }
+                }
+              ],
               // Class prefix for <pre> tags containing syntax highlighting;
               // defaults to 'language-' (eg <pre class="language-js">).
               // If your site loads Prism into the browser at runtime,
@@ -76,8 +84,8 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

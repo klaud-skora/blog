@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import variables from '../styles/variables';
+import facebook from '../images/facebook.svg';
+import instagram from '../images/instagram.svg';
+import { Link } from 'gatsby';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -79,6 +82,8 @@ const Footer = () => (
       <Icon target="_blank" href="https://www.instagram.com/witamyswiat/">
         <FontAwesomeIcon icon={ faInstagram } />
       </Icon>
+      {/* <Link to='/'><img src={facebook} alt="" /></Link>
+      <Link to='/'><img src={instagram} alt="" /></Link> */}
     </Icons>
   </FooterComponent>
 );

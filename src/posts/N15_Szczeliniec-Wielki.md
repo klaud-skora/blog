@@ -23,10 +23,10 @@ cover: ../images/n15.jpg
   Lekko zniechęceni wszechobecną masą ludzi rozpoczynamy wędrówkę. Pogoda nam dopisuje, a z nieba leje się żar. Na żółtym szlaku, którym idziemy, liczba turystów nieco maleje. Widać ich sporo, ale nie ma dramatu. Sytuacja zmienia się jednak z minuty na minutę. Im bliżej szczytu jesteśmy, tym ciężej się ruszyć. I to nie ze zmęczenia, bo samo podejście, chociaż momentami strome, jest przyjemne i bardzo urokliwe. Każdy poradzi sobie z nim bez problemu. Powodem jest coraz większy tłok. Pod szczytem zaczyna tworzyć się korek, a ilość ludzi w okolicach schroniska przechodzi nasze pojęcie.
 </p>
 
-<div class='flex'>
-  <img class='box imageOn' src=`{file.node.publicURL}/n1501.jpg` alt=''/>
+<!-- <div class='flex'> -->
+  <img class='box imageOn' src='../images/n1501.jpg' alt=''/>
   <img class='box imageOn' src='../static/n1502.jpg' alt=''/>
-</div>
+<!-- </div> -->
 
 <p>
   - Skoro już weszliśmy, to czekamy! – tak sobie mówimy i decydujemy się czekać w kolejce, aby wejść na trasę skalną na wierzchołku Szczelinca.

@@ -10,6 +10,7 @@ category: post
 country: Italy
 intro: Witamy Świat ! Zapowiedź pierwszej podróży na blogu - Włochy
 cover: ../images/n1.jpg
+image1: ../images/N11.jpg
 ---
 <p>
   Ciao a tutti!
@@ -33,7 +34,8 @@ cover: ../images/n1.jpg
 
   <li>7 dzień - Neapol >>> Kraków</li>
 </ul>
-<div class='image1 box'><img src="/static/posts-images/n11.jpg" alt=''/></div>
+![Rome](./N11.jpg)
+<!-- <div class='image1 box'><img src="/static/posts-images/N11.jpg" alt=''/></div> -->
 </div>
 
 <p>
