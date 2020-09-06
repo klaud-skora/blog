@@ -35,7 +35,7 @@ image1: ../images/N11.jpg
   <li>7 dzień - Neapol >>> Kraków</li>
 </ul>
 ![Rome](../images/N11.jpg)
-<!-- <div class='image1 box'><img src="/static/posts-images/N11.jpg" alt=''/></div> -->
+<div class='image1 box'><img src={image1} alt=''/></div>
 </div>
 
 <p>
