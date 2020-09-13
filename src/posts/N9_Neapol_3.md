@@ -12,7 +12,7 @@ category: post
 country: Italy
 intro: Kolejna odsłona Neapolu
 cover: ../images/n9.jpg
-
+sideIMG: ../images/n14.jpg
 ---
 <p>Kolejna część relacji z Neapolu przed nami. W niej między innymi o jednej z najkrwawszych bitew morskich w historii, a także o zamku zwanym jajecznym. Czytamy i oglądamy!</p>
 

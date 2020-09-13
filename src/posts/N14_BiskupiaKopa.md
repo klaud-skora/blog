@@ -11,7 +11,7 @@ category: post
 country: Poland
 intro: Góry granicy polsko-czeskiej
 cover: ../images/n14.jpg
-
+sideIMG: ../images/n14.jpg
 ---
 <p>
   Biskupia Kopa jest najwyższym szczytem polskiej części Gór Opawskich (890 m n.p.m.), leżącym na granicy polsko-czeskiej. Czyni ją to obowiązkowym punktem na mapie dla wszystkich tych, którzy marzą o zdobyciu Korony Gór Polski.

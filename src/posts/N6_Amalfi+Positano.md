@@ -13,7 +13,7 @@ category: post
 country: Italy
 intro: Bajkowe wybrzeże włoskie - przystanek Amalfi i Positano
 cover: ../images/n6.jpg
-
+sideIMG: ../images/n14.jpg
 ---
 <p>
   Jak to mówią, marzenia są po to, aby je spełniać. Tak więc tego dnia spełniliśmy jedno z naszych. 😊😊

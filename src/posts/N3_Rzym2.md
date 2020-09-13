@@ -12,6 +12,7 @@ category: post
 country: Italy
 intro: Pobyt w Rzymie- dzień drugi
 cover: ../images/n3.jpg
+sideIMG: ../images/n14.jpg
 ---
 <div class='flex'>
   <div class='image1'><img class='' src='../static/posts-images/n31.jpg' alt=''/></div>

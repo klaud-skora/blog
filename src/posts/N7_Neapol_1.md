@@ -12,7 +12,7 @@ category: post
 country: Italy
 intro: Południe Włoszech - Neapol
 cover: ../images/n7.jpg
-
+sideIMG: ../images/n14.jpg
 ---
 <p>
   Kolejne dni naszej podróży spędzić mieliśmy w Neapolu. W mieście, o którym wiele słyszeliśmy. Jedni mówili, że to najbardziej klimatyczne miejsce na świecie, inni zaś narzekali na brud i ciągłe poczucie niebezpieczeństwa. Jak więc było w naszym przypadku?

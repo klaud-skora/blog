@@ -12,7 +12,7 @@ category: post
 country: Italy
 intro: Kolejna odsłona Neapolu
 cover: ../images/n8.jpg
-
+sideIMG: ../images/n14.jpg
 ---
 <p>Zapraszamy na kolejną część relacji z Neapolu. W niej między innymi o dachu, który chronić miał przed ptasimi odchodami, a dziś podziwiają go tysiące turystów. 😲🕊</p>
 

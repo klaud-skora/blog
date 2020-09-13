@@ -11,7 +11,7 @@ category: post
 country: Poland
 intro: Góry stołowe, czyli kolejny szczyt do kolekcji
 cover: ../images/n15.jpg
-
+sideIMG: ../images/n15.jpg
 ---
 <p>
   Szczeliniec Wielki to najwyższy szczyt Gór Stołowych, dzięki czemu należy do Korony Gór Polski. Położony jest na terenie Parku Narodowego Gór Stołowych i ma 919 m wysokości.

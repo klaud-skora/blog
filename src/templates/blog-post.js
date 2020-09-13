@@ -6,6 +6,7 @@ import './blog-post.scss';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
+  console.log(post)
 
   return (
     <>
@@ -19,6 +20,7 @@ export default ({ data }) => {
         <article className="post-article">
           <h1 className="title">{post.frontmatter.title}</h1>
           <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
+          {/* <img src={post.frontmatter.sideIMG.publicURL} alt="" /> */}
         </article>
       </Layout>
     </>
@@ -35,6 +37,14 @@ export const query = graphql`
         tags,
         date,
         cover {
+          publicURL
+          childImageSharp {
+            sizes(maxWidth: 930 ) {
+              srcSet, aspectRatio, src, sizes
+            }
+          }
+        }
+        sideIMG {
           publicURL
           childImageSharp {
             sizes(maxWidth: 930 ) {

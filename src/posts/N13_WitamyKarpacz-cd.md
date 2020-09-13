@@ -16,7 +16,7 @@ category: post
 country: Poland
 intro: Zdobywamy szczyty i zwiedzamy okolice
 cover: ../images/n13.jpg
-
+sideIMG: ../images/n14.jpg
 ---
 <p>
   Drugiego dnia Karpacz przywitał nas równie słoneczną pogodą. Po śniadaniu przygotowanym przez męską część ekipy ruszyliśmy w stronę wsi Czarnów, skąd startuje szlak na górę Skalnik. Szczyt ten zalicza się do Korony Gór Polski, nie wybraliśmy więc go przypadkowo.

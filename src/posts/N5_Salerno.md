@@ -12,6 +12,7 @@ category: post
 country: Italy
 intro: Kolory Kampanii - Stacja Salerno
 cover: ../images/n5.jpg
+sideIMG: ../images/n14.jpg
 ---
 <p>
   Trzeci dzień naszej podróży zaczął się… od bardzo późnej pobudki. Niemal cała noc spędzona w <i>Foodie</i>, kilka ( 😉 ) drinków i przepis na nieogarnięcie gotowy.
