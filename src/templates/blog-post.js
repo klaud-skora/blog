@@ -47,7 +47,7 @@ export const query = graphql`
         sideIMG {
           publicURL
           childImageSharp {
-            sizes(maxWidth: 930 ) {
+            sizes(maxWidth: 430 ) {
               srcSet, aspectRatio, src, sizes
             }
           }

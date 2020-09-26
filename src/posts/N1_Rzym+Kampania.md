@@ -10,7 +10,6 @@ category: post
 country: Italy
 intro: Witamy Świat ! Zapowiedź pierwszej podróży na blogu - Włochy
 cover: ../images/n1.jpg
-sideIMG: ../images/N11.jpg
 ---
 <p>
   Ciao a tutti!
@@ -35,6 +34,19 @@ sideIMG: ../images/N11.jpg
   <li>7 dzień - Neapol >>> Kraków</li>
 </ul>
 
+</div>
+<!-- <div class="wrapper">
+  <div class="h_iframe">
+    <iframe frameborder="0" gesture="media" allow="encrypted-media" height="100%" width="100%" allowfullscreen
+      class="iframe"
+      src="https://drive.google.com/uc?export=view&?image=740&id=11l9gyj2a-SVQJvMciwfLIRIwj75J2Vid" name="imgbox" id="imgbox">
+    </iframe><br />
+  </div>
+</div>
+<img src="https://drive.google.com/uc?export=view&?image=740&id=11l9gyj2a-SVQJvMciwfLIRIwj75J2Vid"/> -->
+
+<div class='backImage backImageOn'>
+  <img src='https://drive.google.com/uc?export=view&?image=740&id=11l9gyj2a-SVQJvMciwfLIRIwj75J2Vid' alt=''/>
 </div>
 
 <p>
