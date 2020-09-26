@@ -34,19 +34,9 @@ cover: ../images/n1.jpg
   <li>7 dzień - Neapol >>> Kraków</li>
 </ul>
 
+<div class='image1 boxga'>
+  <img src='https://drive.google.com/uc?export=view&?image=740&id=1gJVvu31gsajI2s9vbhE8thW_Oi3Otmai' alt=''/>
 </div>
-<!-- <div class="wrapper">
-  <div class="h_iframe">
-    <iframe frameborder="0" gesture="media" allow="encrypted-media" height="100%" width="100%" allowfullscreen
-      class="iframe"
-      src="https://drive.google.com/uc?export=view&?image=740&id=11l9gyj2a-SVQJvMciwfLIRIwj75J2Vid" name="imgbox" id="imgbox">
-    </iframe><br />
-  </div>
-</div>
-<img src="https://drive.google.com/uc?export=view&?image=740&id=11l9gyj2a-SVQJvMciwfLIRIwj75J2Vid"/> -->
-
-<div class='backImage backImageOn'>
-  <img src='https://drive.google.com/uc?export=view&?image=740&id=11l9gyj2a-SVQJvMciwfLIRIwj75J2Vid' alt=''/>
 </div>
 
 <p>

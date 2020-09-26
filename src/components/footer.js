@@ -77,7 +77,7 @@ const Footer = () => (
     <Copyright>© Witamy Świat {new Date().getFullYear()} All rights reserved.</Copyright>
     <Icons>
       <Icon target="_blank" href="https://www.facebook.com/witamyswiat/">
-        <FontAwesomeIcon icon={ faFacebook } />
+        <FontAwesomeIcon size={.5} icon={ faFacebook } />
       </Icon>
       <Icon target="_blank" href="https://www.instagram.com/witamyswiat/">
         <FontAwesomeIcon icon={ faInstagram } />
