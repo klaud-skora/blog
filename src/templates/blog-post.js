@@ -6,7 +6,6 @@ import './blog-post.scss';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
-  console.log(post)
 
   return (
     <>

@@ -21,12 +21,12 @@ sideIMG: ../images/n14.jpg
 </p>
 
 <div class='flex'>
-  <img class='box image1' src='../static/posts-images/n21.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n22.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n23.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n24.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n25.jpg' alt=''/>
-  <img class='box image1' src='../static/posts-images/n26.jpg' alt=''/>
+  <img class='box image1' src='https://drive.google.com/uc?export=view&?image=740&id=1W7IVfJYiQ--kOLeqgO312-yTBEr4yrYM' alt=''/>
+  <img class='box image1' src='https://drive.google.com/uc?export=view&?image=740&id=1WDWXGddVYYWyDpHit9E6NACa463TVIo7' alt=''/>
+  <img class='box image1' src='https://drive.google.com/uc?export=view&?image=740&id=16PFPoyaCxOl6yayatzSLZDHg_Th_Yz2U' alt=''/>
+  <img class='box image1' src='https://drive.google.com/uc?export=view&?image=740&id=1mSRgVxOu-xJaDKNMoaLb-BNnAQU_2u-J' alt=''/>
+  <img class='box image1' src='https://drive.google.com/uc?export=view&?image=740&id=1bDcNiWeDPO7TuZUaD1tVAqygNOkK7hh3' alt=''/>
+  <img class='box image1' src='https://drive.google.com/uc?export=view&?image=740&id=1pcgBOpUoKsdeE6vHotFnHYuVyHMi2UYx' alt=''/>
 </div>
 
 <p>
