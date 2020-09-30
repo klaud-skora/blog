@@ -12,10 +12,9 @@ category: post
 country: Italy
 intro: Pobyt w Rzymie- dzień drugi
 cover: ../images/n3.jpg
-sideIMG: ../images/n14.jpg
 ---
 <div class='flex'>
-  <div class='image1'><img class='' src='../static/posts-images/n31.jpg' alt=''/></div>
+  <div class='image1'><img class='' src='https://drive.google.com/uc?export=view&?image=740&id=1zwvKnWqM_G2_cycxCKxPiXWmSWGItBbg' alt=''/></div>
   <div class='box'>
     <p>
       Drugi dzień w Rzymie rozpoczęliśmy od dość wczesnej pobudki. W kuchni czekało już na nas włoskie śniadanie przygotowane przez gospodarzy. Na stole były w zasadzie same słodkości: tosty z nutellą lub dżemem, muffiny czekoladowe, ciasto, do tego oczywiście mocna kawa.
@@ -26,10 +25,10 @@ sideIMG: ../images/n14.jpg
 </div>
 
 <div class='flex'>
-  <img class='box image2' src='../static/posts-images/n32.jpg' alt=''/>
-  <img class='box image2' src='../static/posts-images/n33.jpg' alt=''/>
-  <img class='box image2' src='../static/posts-images/n34.jpg' alt=''/>
-  <img class='box image2' src='../static/posts-images/n35.jpg' alt=''/>
+  <img class='box image2' src='https://drive.google.com/uc?export=view&?image=740&id=1KqkusQvEgkDdiOqxRFHRTPfLuw2K8ejz' alt=''/>
+  <img class='box image2' src='https://drive.google.com/uc?export=view&?image=740&id=1-K9JUedUzg3bfqTs0DCBm3HG_ypNAS1I' alt=''/>
+  <img class='box image2' src='https://drive.google.com/uc?export=view&?image=740&id=1XKU_Px04IeOGVI9m_4wTisKrxxzgtwRo' alt=''/>
+  <img class='box image2' src='https://drive.google.com/uc?export=view&?image=740&id=1WHb27KkC7LSe__7EQIesuFjoh7lWZShY' alt=''/>
 </div>
 
 <p>
@@ -43,10 +42,11 @@ sideIMG: ../images/n14.jpg
 </p>
 
 <div class='flex'>
-  <img class='image2' src='../static/n37.jpg' alt=''/>
-  <img class='image2' src='../static/n38.jpg' alt=''/>
-  <img class='image2' src='../static/n39.jpg' alt=''/>
-  <img class='image2' src='../static/n391.jpg' alt=''/>
+
+  <img class='image2' src='https://drive.google.com/uc?export=view&?image=740&id=1l0OqfzMhU0IsS-wWGUFLmwpidUWVsHIK' alt=''/>
+  <img class='image2' src='https://drive.google.com/uc?export=view&?image=740&id=1j2EvK7fOfyH6BWyP8z4s1iG-hFClUHlC' alt=''/>
+  <img class='image2' src='https://drive.google.com/uc?export=view&?image=740&id=10MtrayKNafMCxPd_GLgHgp3w9jpOyQit' alt=''/>
+  <img class='image2' src='https://drive.google.com/uc?export=view&?image=740&id=' alt=''/>
 </div>
 
 <p>
@@ -54,7 +54,7 @@ sideIMG: ../images/n14.jpg
 </p>
 
 <div class='backImage backImage2'>
-  <img src='../static/posts-images/n392.jpg' alt=''/>
+  <img src='https://drive.google.com/uc?export=view&?image=740&id=19o6abxwUw0okW3w49SQEOHhE17r5z5Oo' alt=''/>
 </div>
 
 <p>
@@ -65,28 +65,28 @@ sideIMG: ../images/n14.jpg
 
 
 <div class='backImage backImage0'>
-<img src='../static/posts-images/IMG_20200208_214512.jpg' alt=''/>
+<img src='https://drive.google.com/uc?export=view&?image=740&id=12M338XKekRCek-55l3dUUlptzu9F4M_8'  alt=''/>
   <p class='textLight'>
   Zmierzając w stronę Watykanu minęliśmy jeszcze zamek oraz most Świętego Anioła. Zamek jest grobowcem cesarza Hadriana. Z mostem wiąże się za to smutna historia. W 1450 roku pod naporem licznych pielgrzymów załamały się balustrady, a ponad 200 osób poniosło śmierć.
   </p>
 </div>
 
 <div class='backImage backImage2'>
-  <img src='../static/posts-images/n399.jpg' alt=''/>
+  <img src='https://drive.google.com/uc?export=view&?image=740&id=1CKjNNxrbYKYLKB_VJVMjTSpQ1VrVnEVJ' alt=''/>
 </div>
 
 <p>
   Tego dnia Watykan był truskawką na torcie (😊). Najmniejsze państwo świata to siedziba najważniejszych władz Kościoła, a przede wszystkim Papieża. Oczywiście głównym punktem okazała się Bazylika Św. Piotra, która wedle tradycji powstała w miejscu pochówku Św. Piotra. Warto jednak zobaczyć też Muzea oraz Ogrody Watykańskie.
 </p>
 
-<div class='backImage backImage2'>
+<!-- <div class='backImage backImage2'>
   <img src='../static/posts-images/IMG_20200208_214615.jpg' alt=''/>
-</div>
+</div> -->
 
 <p>
   Gdy dzień zbliżał się ku końcowi wypiliśmy jeszcze świetną kawę i obraliśmy kierunek ku dzielnicy San Giovani, gdzie znajdował się nasz nocleg. Po drodze na placu przed Arcybazyliką Św. Jana usiedliśmy na ławce racząc się dwoma butelkami białego wina. Wieczorem zajrzeliśmy też do znakomitego Foodie, gdzie w międzynarodowym towarzystwie spędziliśmy czas do późnych godzin nocnych..
 </p>
 
 <div class='backImage backImage2'>
-  <img src='../static/posts-images/IMG_20200208_214630.jpg' alt=''/>
+  <img src='https://drive.google.com/uc?export=view&?image=740&id=1a0Bs1_XnH6yM5a6aq5780_30gDDf8kvs' alt=''/>
 </div>

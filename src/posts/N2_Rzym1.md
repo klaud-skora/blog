@@ -12,7 +12,7 @@ category: post
 country: Italy
 intro: Pobyt w Rzymie- dzień pierwszy
 cover: ../images/n2.jpg
-sideIMG: ../images/n14.jpg
+
 ---
 <p>
   We wtorkowy poranek stawiliśmy się na krakowskim lotnisku, gdzie rozpoczęła się nasza kolejna włoska przygoda. Lot linią WIzzair na trasie Kraków – Rzym Fiumicino trwał niecałe dwie godziny, a bilety udało nam się zdobyć w bardzo dobrej cenie 78zł/os. Naszej podniebnej podróży towarzyszyła piękna, słoneczna pogoda, dzięki czemu mogliśmy podziwiać kolejne kraje z powietrza. Chociaż niektórzy, tak jak Klaudia, wybrali relaks w formie snu 😊
