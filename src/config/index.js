@@ -1,0 +1,1 @@
+export const url = process.env.NODE_ENV === 'production' ? 'https://master.dbt290y0jlaif.amplifyapp.com/' : 'http://localhost:8000/';
