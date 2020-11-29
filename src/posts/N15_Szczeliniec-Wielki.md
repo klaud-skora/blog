@@ -24,7 +24,7 @@ sideIMG: ../images/n15.jpg
 </p>
 
 <!-- <div class='flex'> -->
-  <img class='box imageOn' src='https://master.dbt290y0jlaif.amplifyapp.com/static/n15.jpg' alt=''/>
+  <img class='box imageOn' src='/static/n15.jpg' alt=''/>
   <!-- <img class='box imageOn' src='../images/n1501.jpg' alt=''/> -->
   <img class='box imageOn' src='../static/n1502.jpg' alt=''/>
 <!-- </div> -->
