@@ -8,9 +8,9 @@ import styled from 'styled-components';
 
 const Main = styled.main`
   min-height: calc(100vh - calc(20vh + 40px));
-  padding: 0 30px;
+  /* padding: 0 30px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto; */
 `;
 
 const Layout = ({ children }) => (

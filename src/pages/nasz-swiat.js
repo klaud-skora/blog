@@ -16,6 +16,7 @@ const OurWorldContainer = styled.div`
 
 const About = styled.div`
   max-width: 800px;
+  padding: 0 30px;
 `;
 
 const Wrapper = styled.div`

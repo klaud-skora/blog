@@ -48,7 +48,7 @@ const Icons = styled.div`
   align-items: center;
   width: 100px;
   height: 100%;
-  padding: 0 10px;
+  padding: 0 0 0 30px;
 
   @media(max-width: 740px) {
     width: 20%;

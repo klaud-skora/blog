@@ -3,6 +3,7 @@ import variables from '../../../styles/variables';
 
 export const AllPosts = styled.section`
   margin: 100px auto 40px;
+  padding: 0 30px;
   max-width: 800px;
   @media (max-width: 740px) {
     margin-top: 30px; 
