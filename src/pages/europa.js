@@ -4,7 +4,7 @@ import Map from '../components/map.js';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import styled from 'styled-components';
-import image from '../images/IMG_20200706_211108.jpg';
+import image from '../images/main.jpg';
 import variables from '../styles/variables';
 
 // var ReactTooltip = require('rc-tooltip');

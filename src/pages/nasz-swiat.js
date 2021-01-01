@@ -15,14 +15,18 @@ const OurWorldContainer = styled.div`
 `;
 
 const About = styled.div`
+  max-width: 800px;
+`;
+
+const Wrapper = styled.div`
   width: 100%;
-  padding: 40px;
+  padding: 40px 0;
   h2, p { color: ${variables.color.lightColor}; text-shadow: 1px 1px .4px ${variables.color.footerColor}; font-weight: 800; }
   text-align: justify;
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
   
   &::after {
     content: '';
@@ -48,12 +52,14 @@ const OurWorld = () => (
       <SEO title="Nasz Świat" />
       <OurWorldContainer>
         <Image>
-          <About> 
-            <h2>Cześć!</h2>
-            <p>Jesteśmy Joachim i Klaudia. Podróże od zawsze były naszą pasją i nieodłączną częścią naszego życia. Każda wyprawa to dla nas wyjątkowa radość, którą chcemy się z wami podzielić. </p>
-            <p>Na naszym blogu znajdziecie relacje z podróży, zdjęcia, porady, a także adresy miejsc, które warto zobaczyć, w których można się przespać, czy też te, w których można dobrze zjeść (a to lubimy najbardziej).</p>
-            <p>K i J</p>
-          </About>
+          <Wrapper> 
+            <About>
+              <h2>Cześć!</h2>
+              <p>Jesteśmy Joachim i Klaudia. Podróże od zawsze były naszą pasją i nieodłączną częścią naszego życia. Każda wyprawa to dla nas wyjątkowa radość, którą chcemy się z wami podzielić. </p>
+              <p>Na naszym blogu znajdziecie relacje z podróży, zdjęcia, porady, a także adresy miejsc, które warto zobaczyć, w których można się przespać, czy też te, w których można dobrze zjeść (a to lubimy najbardziej).</p>
+              <p>K i J</p>
+            </About>
+          </Wrapper>
         </Image>
       </OurWorldContainer>
     </Layout>

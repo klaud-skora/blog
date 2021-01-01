@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Layout from '../components/layout';
-import image from '../images/IMG_20200706_211108.jpg';
+import image from '../images/main.jpg';
 import SEO from '../components/seo';
 import variables from '../styles/variables';
 
