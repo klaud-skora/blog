@@ -16,7 +16,6 @@ category: post
 country: Italy
 intro: Salerno i Neapol - gdzie zjeść? - gdzie spać?
 cover: ../images/n11.jpg
-sideIMG: ../images/n14.jpg
 ---
 <h2>Salerno</h2>
 

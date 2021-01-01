@@ -12,7 +12,6 @@ category: post
 country: Italy
 intro: Ostatni dzień w Neapolu
 cover: ../images/n10.jpg
-sideIMG: ../images/n14.jpg
 ---
 <p>
   Zapraszamy na ostatnią część relacji z Neapolu. Tym razem o naszym dniu leniucha, a także o tym, że na samolot warto udać się spacerem. 😁

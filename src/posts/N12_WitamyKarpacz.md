@@ -14,7 +14,6 @@ category: post
 country: Poland
 intro: Górskie wędrówki - czas start!
 cover: ../images/n12.jpg
-sideIMG: ../images/n14.jpg
 ---
 <p>
   W końcu nastał długo oczekiwany dzień jakiegokolwiek wyjazdu. Spośród kilku pomysłów na nasz cel wybraliśmy Karpacz na Dolnym Śląsku.

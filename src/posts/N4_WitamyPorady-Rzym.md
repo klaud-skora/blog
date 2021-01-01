@@ -13,7 +13,6 @@ category: post
 country: Italy
 intro: To co pyszne i na pewno się opłaca w Rzymie
 cover: ../images/n4.jpg
-sideIMG: ../images/n14.jpg
 ---
 <p>
   W naszym cyklu „Witamy Porady” będziemy przedstawiać wam miejsca, w których można świetnie zjeść, przespać się, czy też wypić kawę lub drinka. W zestawieniach znajdą się zarówno restauracje, jak i kawiarnie czy drink bary. Dodatkowo, w postach z tej serii zagoszczą nasze opinie na temat miejsc noclegowych, z których mieliśmy okazję skorzystać.

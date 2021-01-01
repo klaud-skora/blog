@@ -20,7 +20,7 @@ cover: ../images/n3.jpg
       Drugi dzień w Rzymie rozpoczęliśmy od dość wczesnej pobudki. W kuchni czekało już na nas włoskie śniadanie przygotowane przez gospodarzy. Na stole były w zasadzie same słodkości: tosty z nutellą lub dżemem, muffiny czekoladowe, ciasto, do tego oczywiście mocna kawa.
 
       Pojedzeni ruszyliśmy na całodniowe zwiedzanie. Już na samym początku minęliśmy Arcybazylikę Św. Jana na Lateranie, która jest katedrą Biskupa Rzymu. Pochowanych jest w niej 23 papieży, a w przyległym do niej pałacu mieszkało ponad 150 Zwierzchników Kościoła. Co więcej, znajdują się w niej Święte Schody, po których stąpał Chrystus. Arcybazylika była też miejscem podpisania Traktatów Laterańskich. Z dzielnicy San Giovanni udaliśmy się na Via Emanuele Filiberto w stronę Placu Vittorio Emanuele II, a następnie skierowaliśmy swe kroki ku Forum Romanum. Było to centrum życia towarzyskiego, religijnego oraz politycznego starożytnego Rzymu. Oświetlane mocnymi promieniami słońca wywarło ono na nas ogromne wrażenie. W całej okolicy Forum Romanum miasto tętni życiem. Co kilka metrów swoje umiejętności prezentują uliczni artyści: tańczą, śpiewają i malują. To wszystko stwarza niebywałą i wyjątkową atmosferę. Samo wejście na teren Forum Romanum kosztuje 16 euro (bilet umożliwia wejście także do Coloseum). Młodzież do 17 r.ż. wchodzi za darmo, natomiast bilet dla młodzieży (17-25) z UE to wydatek zaledwie 2 euro.
-    </p>
+  </p>
   </div>
 </div>
 
