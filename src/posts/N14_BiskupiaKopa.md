@@ -44,7 +44,7 @@ cover: ../images/n14.jpg
 </p>
 
 <div class='flex narrow'>
-  <img class='box imageOn' src='./static/n1406.jpg' alt=''/>
+  <img class='box imageOn' src='../static/n1406.jpg' alt=''/>
   <img class='box imageOn' src='../static/posts-images/n1407.jpg' alt=''/>
 </div>
 
