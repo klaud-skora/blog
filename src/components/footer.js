@@ -9,14 +9,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
+const Content = styled.footer`
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+`;
+
 const FooterComponent = styled.footer`
-  
   height: ${variables.height.footerHeight};
   bottom: 0;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
   color: ${variables.color.lightColor};
   font-weight: 600;
   text-shadow: .1px .1px .1px #032a3f;
@@ -74,17 +80,19 @@ const Copyright = styled.span`
 
 const Footer = () => (
   <FooterComponent className={ typeof window !== 'undefined' && window.location.pathname === '/' ? 'sticky' : 'tape'}>
-    <Copyright>© Witamy Świat {new Date().getFullYear()} All rights reserved.</Copyright>
-    <Icons>
-      <Icon target="_blank" href="https://www.facebook.com/witamyswiat/">
-        <FontAwesomeIcon size='.100x' icon={ faFacebook } />
-      </Icon>
-      <Icon target="_blank" href="https://www.instagram.com/witamyswiat/">
-        <FontAwesomeIcon icon={ faInstagram } />
-      </Icon>
-      {/* <Link to='/'><img src={facebook} alt="" /></Link>
-      <Link to='/'><img src={instagram} alt="" /></Link> */}
-    </Icons>
+    <Content>
+      <Copyright>© Witamy Świat {new Date().getFullYear()} All rights reserved.</Copyright>
+      <Icons>
+        <Icon target="_blank" href="https://www.facebook.com/witamyswiat/">
+          <FontAwesomeIcon size='.100x' icon={ faFacebook } />
+        </Icon>
+        <Icon target="_blank" href="https://www.instagram.com/witamyswiat/">
+          <FontAwesomeIcon icon={ faInstagram } />
+        </Icon>
+        {/* <Link to='/'><img src={facebook} alt="" /></Link>
+        <Link to='/'><img src={instagram} alt="" /></Link> */}
+      </Icons>
+    </Content>
   </FooterComponent>
 );
 

@@ -21,28 +21,36 @@ const EuropaComponent = styled.div`
     position: absolute;
     top: ${variables.height.logoHeight};
     left: 0;
-    width: 100%;
-    min-height: calc(100% - ${variables.height.footerHeight} - ${variables.height.logoHeight});
+    right: 0;
+    height: calc(100% - ${variables.height.footerHeight} - ${variables.height.logoHeight} + 7px);
+    /* bottom: ${variables.height.footerHeight}; */
     background: rgba(255, 255, 255, .4);
   }
 `;
 
 const Text = styled.p`
   font-weight: 700;
+  display: inline;
   font-size: 15px;
   position: absolute;
   z-index: 999;
-  bottom: 50px;
-  left: 40px;
+  bottom: ${variables.height.footerHeight};
+  left: 80px;
   text-align: justify;
   text-shadow: .3px .1px .1px #fff;
-  width: 80%;
+  max-width: 800px;
   padding: 4px;
+  
   @media(max-width: 740px) {
     bottom: 110px;
   }
 `;
 
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+`;
 const Root = styled.div`
   min-height: 100vh;
   padding-top: ${variables.height.headerHeight};
@@ -64,9 +72,11 @@ const Europa = () => {
           <Map  />
           {/* <ReactTooltip>{content}</ReactTooltip> */}
         </Root>
-        <Text>
-          Na mapce powyżej zaznaczyliśmy kraje, które od początku isnienia bloga udało nam się odwiedzić :). Mamy nadzieję, że mapa ta będzie się stopniowo wypełniać, ponieważ pod oznaczonymi państwami kryją się posty z ciekawostkami i poradami, a dla nas wspaniałymi wspomnieniami.
-        </Text>
+        <Wrapper>
+          <Text>
+            Na mapce powyżej zaznaczyliśmy kraje, które od początku isnienia bloga udało nam się odwiedzić :). Mamy nadzieję, że mapa ta będzie się stopniowo wypełniać, ponieważ pod oznaczonymi państwami kryją się posty z ciekawostkami i poradami, a dla nas wspaniałymi wspomnieniami.
+          </Text>
+          </Wrapper>
       </Layout>
     </EuropaComponent>
   </>;
