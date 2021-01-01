@@ -11,7 +11,6 @@ category: post
 country: Poland
 intro: Góry stołowe, czyli kolejny szczyt do kolekcji
 cover: ../images/n15.jpg
-sideIMG: ../images/n15.jpg
 ---
 <p>
   Szczeliniec Wielki to najwyższy szczyt Gór Stołowych, dzięki czemu należy do Korony Gór Polski. Położony jest na terenie Parku Narodowego Gór Stołowych i ma 919 m wysokości.
@@ -23,11 +22,10 @@ sideIMG: ../images/n15.jpg
   Lekko zniechęceni wszechobecną masą ludzi rozpoczynamy wędrówkę. Pogoda nam dopisuje, a z nieba leje się żar. Na żółtym szlaku, którym idziemy, liczba turystów nieco maleje. Widać ich sporo, ale nie ma dramatu. Sytuacja zmienia się jednak z minuty na minutę. Im bliżej szczytu jesteśmy, tym ciężej się ruszyć. I to nie ze zmęczenia, bo samo podejście, chociaż momentami strome, jest przyjemne i bardzo urokliwe. Każdy poradzi sobie z nim bez problemu. Powodem jest coraz większy tłok. Pod szczytem zaczyna tworzyć się korek, a ilość ludzi w okolicach schroniska przechodzi nasze pojęcie.
 </p>
 
-<!-- <div class='flex'> -->
-  <img class='box imageOn' src='/static/n15.jpg' alt=''/>
-  <!-- <img class='box imageOn' src='../images/n1501.jpg' alt=''/> -->
-  <img class='box imageOn' src='../static/n1502.jpg' alt=''/>
-<!-- </div> -->
+<div class='flex'>
+  <img class='box imageOn' src='../static/posts-images/n1501.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n1502.jpg' alt=''/>
+</div>
 
 <p>
   - Skoro już weszliśmy, to czekamy! – tak sobie mówimy i decydujemy się czekać w kolejce, aby wejść na trasę skalną na wierzchołku Szczelinca.
@@ -42,15 +40,15 @@ sideIMG: ../images/n15.jpg
 </p>
 
 <div class='backImage backImage1'>
-<!-- <img class='box imageOn' src='../static/posts-images/n1503.jpg' alt=''/> -->
+<img class='box imageOn' src='../static/posts-images/n1503.jpg' alt=''/>
 </div>
 
 
 <div class='flex'>
-  <img class='box imageOn' src='../static/n1504.jpg' alt=''/>
-  <img class='box imageOn' src='../static/n1505.jpg' alt=''/>
-  <img class='box imageOn' src='../static/n1506.jpg' alt=''/>
-  <img class='box imageOn' src='../static/n1507.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n1504.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n1505.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n1506.jpg' alt=''/>
+  <img class='box imageOn' src='../static/posts-images/n1507.jpg' alt=''/>
 </div>
 
 <p>
@@ -58,7 +56,7 @@ sideIMG: ../images/n15.jpg
 </p>
 
 <div class='flex narrow'>
-  <img class='box imageOn' src=`{file.node.publicURL}/static/n1508.jpg` alt=''/>
+  <img class='box imageOn' src='../static/n1508.jpg' alt=''/>
 </div>
 
 <p>
@@ -66,7 +64,7 @@ sideIMG: ../images/n15.jpg
 </p>
 
 <div class='flex narrow'>
-  <img class='box image0' src='../static/n1509.jpg' alt=''/>
+  <img class='box image0' src='../static/posts-images/n1509.jpg' alt=''/>
 </div>
 
 <p>
